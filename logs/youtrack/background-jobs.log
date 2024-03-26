@@ -1,0 +1,14 @@
+26/03/24 07:42:32,842 INFO  [@init servlet   ] [MaintenanceJobThreadPool      ] [init@] Enabled autoscaling (checkIntervalSec=60, queueSizeThreshold=100)
+ 26/03/24 07:42:54,374 INFO  [@job-reporter-1 ] [TextIndexManagerImpl          ] [system@] Job report:
+  Pending job count: 1
+  Running jobs: [
+ j.y.t.async.QueueNotIndexedDocumentsJob:093b9a3b5f8e(metadata=null, state=RUNNING, priority=ABOVE_NORMAL, executingThread=text-index-1, timing=(createdAt=2024-03-26T07:42:54.356438758Z, pending=2ms, running=14ms, lifetime=16ms)) 
+]
+ 26/03/24 07:43:32,686 INFO  [@init servlet   ] [AnalysisDurabilityJobProcessor] [@] Changed start delay: 0 -> 55000
+ 26/03/24 07:43:32,687 INFO  [@init servlet   ] [AnalysisDurabilityJobProcessor] [@] Changed timeout: 90000 -> 90000
+ 26/03/24 07:43:32,716 INFO  [@init servlet   ] [AnalysisDurabilityJobProcessor] [@] Changed start delay: 0 -> 10000
+ 26/03/24 07:43:32,717 INFO  [@init servlet   ] [AnalysisDurabilityJobProcessor] [@] Changed timeout: 90000 -> 90000
+ 26/03/24 07:43:32,718 INFO  [@init servlet   ] [SendingDurabilityJobProcessor ] [@] Changed start delay: 0 -> 70000
+ 26/03/24 07:43:32,719 INFO  [@init servlet   ] [SendingDurabilityJobProcessor ] [@] Changed timeout: 90000 -> 90000
+ 26/03/24 08:25:00,006 WARN  [@al-scheduling-3] [CleanupJobProcessor           ] [@] Unable to replace previous job j.y.p.cleanup.issue.AbstractCleanupLocalScheduling$createCleanupJob$1:c65bcbb1eb16(status=COMPLETED) with j.y.p.cleanup.issue.AbstractCleanupLocalScheduling$createCleanupJob$1:7355ca9dbfa8 in group standalone. 
+ 

@@ -1,0 +1,227 @@
+[2024-03-26 07:37:42,938]  TRACE -                                - ================================================================ (start)
+[2024-03-26 07:37:43,016]  DEBUG - ncher.log.AppWrapperLoggerImpl - [APP-WRAPPER] YouTrack Java: <YouTrack Home>/internal/java/linux-x64 (version "21.0.1", build "21.0.1+12-LTS")
+[2024-03-26 07:37:43,030]  DEBUG - ncher.log.AppWrapperLoggerImpl - [APP-WRAPPER] YouTrack process ID: 155
+[2024-03-26 07:37:43,030]  DEBUG - ncher.log.AppWrapperLoggerImpl - [APP-WRAPPER] YouTrack home directory: /opt/youtrack
+[2024-03-26 07:37:43,031]  DEBUG - ncher.log.AppWrapperLoggerImpl - [APP-WRAPPER] Command line: [com.jetbrains.bundle.bootstrap.Bundle]
+[2024-03-26 07:37:43,031]  DEBUG - ncher.log.AppWrapperLoggerImpl - [APP-WRAPPER] JetLauncher logs directory: <YouTrack Home>/logs
+[2024-03-26 07:37:43,048]  DEBUG - ncher.log.AppWrapperLoggerImpl - [APP-WRAPPER] YouTrack class loader:
+java.net.URLClassLoader {
+    file:<YouTrack Home>/lib/annotations-13.0.jar
+    file:<YouTrack Home>/lib/http2-common-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/slf4j-api-1.8.0-beta4.jar
+    file:<YouTrack Home>/lib/asm-tree-7.3.1.jar
+    file:<YouTrack Home>/lib/api-ext-2.0.48.jar
+    file:<YouTrack Home>/lib/javax.websocket-client-api-1.0.jar
+    file:<YouTrack Home>/lib/javax.websocket-api-1.0.jar
+    file:<YouTrack Home>/lib/jetty-webapp-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/websocket-client-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/jetty-jndi-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/jetty-xml-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/jetty-alpn-client-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/http2-server-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/jetty-rewrite-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/asm-analysis-7.3.1.jar
+    file:<YouTrack Home>/lib/javax.transaction-api-1.3.jar
+    file:<YouTrack Home>/lib/log4j-core-2.17.1.jar
+    file:<YouTrack Home>/lib/http2-client-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/javax-websocket-server-impl-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/bundle-api-2.0.48.jar
+    file:<YouTrack Home>/lib/jetty-io-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/bundle-internal-api-2.0.48.jar
+    file:<YouTrack Home>/lib/jetty-http-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/log4j-api-2.17.1.jar
+    file:<YouTrack Home>/lib/jetty-servlets-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/jetty-util-ajax-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/jetty-quickstart-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/asm-commons-7.3.1.jar
+    file:<YouTrack Home>/lib/jetty-security-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/javax-websocket-client-impl-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/jetty-server-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/jetty-plus-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/http2-hpack-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/javax.servlet-api-3.1.0.jar
+    file:<YouTrack Home>/lib/jcl-over-slf4j-1.8.0-beta4.jar
+    file:<YouTrack Home>/lib/websocket-servlet-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/jetty-jmx-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/websocket-common-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/javax.annotation-api-1.3.2.jar
+    file:<YouTrack Home>/lib/jetty-client-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/bundle-bootstrap-2.0.48.jar
+    file:<YouTrack Home>/lib/jetty-servlet-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/jetty-util-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/websocket-api-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/jetty-deploy-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/jetty-proxy-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/jul-to-slf4j-1.8.0-beta4.jar
+    file:<YouTrack Home>/lib/log4j-slf4j18-impl-2.17.1.jar
+    file:<YouTrack Home>/lib/jetty-alpn-server-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/asm-7.3.1.jar
+    file:<YouTrack Home>/lib/jetty-annotations-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/websocket-server-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/alpn/1.9/activation-1.1.1.jar
+    file:<YouTrack Home>/lib/alpn/1.9/jetty-alpn-java-server-9.4.49.v20220914.jar
+}
+with parent java.net.URLClassLoader {
+    file:<YouTrack Home>/launcher/lib/app-wrapper/app-wrapper-api.jar
+    file:<YouTrack Home>/launcher/lib/app-wrapper/../common/launcher-api.jar
+    file:<YouTrack Home>/launcher/lib/app-wrapper/../common/launcher-runtime-api.jar
+}
+with parent jdk.internal.loader.ClassLoaders$PlatformClassLoader
+[2024-03-26 07:37:43,113]  DEBUG - ncher.log.AppWrapperLoggerImpl - [APP-WRAPPER] JetLauncher version: 1.0.206
+[2024-03-26 07:37:43,855]  DEBUG - ncher.log.AppWrapperLoggerImpl - [APP-WRAPPER] Starting YouTrack...
+[2024-03-26 07:37:43,877]  DEBUG - ncher.log.AppWrapperLoggerImpl - [APP-WRAPPER] [Server] Server started on port 37677
+[2024-03-26 07:37:52,144]  DEBUG - ncher.log.AppWrapperLoggerImpl - [APP-WRAPPER] [Server] [127.0.0.1:34508] Processing request: '/attach', params: {stderr=false}
+[2024-03-26 07:37:52,145]  DEBUG - ncher.log.AppWrapperLoggerImpl - [APP-WRAPPER] [Server] [127.0.0.1:34508] Sending response: 200 null
+[2024-03-26 07:37:52,198]  DEBUG - ncher.log.AppWrapperLoggerImpl - [APP-WRAPPER] [Server] [127.0.0.1:34520] Processing request: '/attach', params: {stderr=true}
+[2024-03-26 07:37:52,199]  DEBUG - ncher.log.AppWrapperLoggerImpl - [APP-WRAPPER] [Server] [127.0.0.1:34520] Sending response: 200 null
+[2024-03-26 07:37:52,253]  DEBUG - ncher.log.AppWrapperLoggerImpl - [APP-WRAPPER] [Server] [127.0.0.1:34536] Processing request: '/stop', params: {soft=false}
+[2024-03-26 07:37:52,254]  DEBUG - ncher.log.AppWrapperLoggerImpl - [APP-WRAPPER] Shutdown requested (exitCode: EXIT(29), soft: false, restartState: null)
+[2024-03-26 07:38:34,549]  TRACE -                                - ================================================================ (start)
+[2024-03-26 07:38:34,641]  DEBUG - ncher.log.AppWrapperLoggerImpl - [APP-WRAPPER] YouTrack Java: <YouTrack Home>/internal/java/linux-x64 (version "21.0.1", build "21.0.1+12-LTS")
+[2024-03-26 07:38:34,655]  DEBUG - ncher.log.AppWrapperLoggerImpl - [APP-WRAPPER] YouTrack process ID: 154
+[2024-03-26 07:38:34,655]  DEBUG - ncher.log.AppWrapperLoggerImpl - [APP-WRAPPER] YouTrack home directory: /opt/youtrack
+[2024-03-26 07:38:34,656]  DEBUG - ncher.log.AppWrapperLoggerImpl - [APP-WRAPPER] Command line: [com.jetbrains.bundle.bootstrap.Bundle]
+[2024-03-26 07:38:34,656]  DEBUG - ncher.log.AppWrapperLoggerImpl - [APP-WRAPPER] JetLauncher logs directory: <YouTrack Home>/logs
+[2024-03-26 07:38:34,674]  DEBUG - ncher.log.AppWrapperLoggerImpl - [APP-WRAPPER] YouTrack class loader:
+java.net.URLClassLoader {
+    file:<YouTrack Home>/lib/annotations-13.0.jar
+    file:<YouTrack Home>/lib/http2-common-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/slf4j-api-1.8.0-beta4.jar
+    file:<YouTrack Home>/lib/asm-tree-7.3.1.jar
+    file:<YouTrack Home>/lib/api-ext-2.0.48.jar
+    file:<YouTrack Home>/lib/javax.websocket-client-api-1.0.jar
+    file:<YouTrack Home>/lib/javax.websocket-api-1.0.jar
+    file:<YouTrack Home>/lib/jetty-webapp-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/websocket-client-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/jetty-jndi-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/jetty-xml-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/jetty-alpn-client-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/http2-server-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/jetty-rewrite-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/asm-analysis-7.3.1.jar
+    file:<YouTrack Home>/lib/javax.transaction-api-1.3.jar
+    file:<YouTrack Home>/lib/log4j-core-2.17.1.jar
+    file:<YouTrack Home>/lib/http2-client-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/javax-websocket-server-impl-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/bundle-api-2.0.48.jar
+    file:<YouTrack Home>/lib/jetty-io-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/bundle-internal-api-2.0.48.jar
+    file:<YouTrack Home>/lib/jetty-http-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/log4j-api-2.17.1.jar
+    file:<YouTrack Home>/lib/jetty-servlets-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/jetty-util-ajax-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/jetty-quickstart-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/asm-commons-7.3.1.jar
+    file:<YouTrack Home>/lib/jetty-security-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/javax-websocket-client-impl-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/jetty-server-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/jetty-plus-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/http2-hpack-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/javax.servlet-api-3.1.0.jar
+    file:<YouTrack Home>/lib/jcl-over-slf4j-1.8.0-beta4.jar
+    file:<YouTrack Home>/lib/websocket-servlet-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/jetty-jmx-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/websocket-common-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/javax.annotation-api-1.3.2.jar
+    file:<YouTrack Home>/lib/jetty-client-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/bundle-bootstrap-2.0.48.jar
+    file:<YouTrack Home>/lib/jetty-servlet-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/jetty-util-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/websocket-api-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/jetty-deploy-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/jetty-proxy-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/jul-to-slf4j-1.8.0-beta4.jar
+    file:<YouTrack Home>/lib/log4j-slf4j18-impl-2.17.1.jar
+    file:<YouTrack Home>/lib/jetty-alpn-server-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/asm-7.3.1.jar
+    file:<YouTrack Home>/lib/jetty-annotations-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/websocket-server-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/alpn/1.9/activation-1.1.1.jar
+    file:<YouTrack Home>/lib/alpn/1.9/jetty-alpn-java-server-9.4.49.v20220914.jar
+}
+with parent java.net.URLClassLoader {
+    file:<YouTrack Home>/launcher/lib/app-wrapper/app-wrapper-api.jar
+    file:<YouTrack Home>/launcher/lib/app-wrapper/../common/launcher-api.jar
+    file:<YouTrack Home>/launcher/lib/app-wrapper/../common/launcher-runtime-api.jar
+}
+with parent jdk.internal.loader.ClassLoaders$PlatformClassLoader
+[2024-03-26 07:38:34,747]  DEBUG - ncher.log.AppWrapperLoggerImpl - [APP-WRAPPER] JetLauncher version: 1.0.206
+[2024-03-26 07:38:35,468]  DEBUG - ncher.log.AppWrapperLoggerImpl - [APP-WRAPPER] Starting YouTrack...
+[2024-03-26 07:38:35,491]  DEBUG - ncher.log.AppWrapperLoggerImpl - [APP-WRAPPER] [Server] Server started on port 35399
+[2024-03-26 07:40:58,348]  DEBUG - ncher.log.AppWrapperLoggerImpl - [APP-WRAPPER] Shutdown requested (exitCode: RESTART(23), soft: false, restartState: {})
+[2024-03-26 07:40:58,352]  DEBUG - ncher.log.AppWrapperLoggerImpl - [APP-WRAPPER] YouTrack was started
+[2024-03-26 07:40:58,364]  DEBUG - ncher.log.AppWrapperLoggerImpl - [APP-WRAPPER] [Server] Shutting the server down...
+[2024-03-26 07:40:58,369]  TRACE -                                - ================================================================ (finish)
+[2024-03-26 07:41:03,309]  TRACE -                                - ================================================================ (start)
+[2024-03-26 07:41:03,387]  DEBUG - ncher.log.AppWrapperLoggerImpl - [APP-WRAPPER] YouTrack Java: <YouTrack Home>/internal/java/linux-x64 (version "21.0.1", build "21.0.1+12-LTS")
+[2024-03-26 07:41:03,401]  DEBUG - ncher.log.AppWrapperLoggerImpl - [APP-WRAPPER] YouTrack process ID: 397
+[2024-03-26 07:41:03,402]  DEBUG - ncher.log.AppWrapperLoggerImpl - [APP-WRAPPER] YouTrack home directory: /opt/youtrack
+[2024-03-26 07:41:03,402]  DEBUG - ncher.log.AppWrapperLoggerImpl - [APP-WRAPPER] Command line: [com.jetbrains.bundle.bootstrap.Bundle]
+[2024-03-26 07:41:03,403]  DEBUG - ncher.log.AppWrapperLoggerImpl - [APP-WRAPPER] JetLauncher logs directory: <YouTrack Home>/logs
+[2024-03-26 07:41:03,423]  DEBUG - ncher.log.AppWrapperLoggerImpl - [APP-WRAPPER] YouTrack class loader:
+java.net.URLClassLoader {
+    file:<YouTrack Home>/lib/annotations-13.0.jar
+    file:<YouTrack Home>/lib/http2-common-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/slf4j-api-1.8.0-beta4.jar
+    file:<YouTrack Home>/lib/asm-tree-7.3.1.jar
+    file:<YouTrack Home>/lib/api-ext-2.0.48.jar
+    file:<YouTrack Home>/lib/javax.websocket-client-api-1.0.jar
+    file:<YouTrack Home>/lib/javax.websocket-api-1.0.jar
+    file:<YouTrack Home>/lib/jetty-webapp-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/websocket-client-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/jetty-jndi-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/jetty-xml-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/jetty-alpn-client-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/http2-server-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/jetty-rewrite-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/asm-analysis-7.3.1.jar
+    file:<YouTrack Home>/lib/javax.transaction-api-1.3.jar
+    file:<YouTrack Home>/lib/log4j-core-2.17.1.jar
+    file:<YouTrack Home>/lib/http2-client-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/javax-websocket-server-impl-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/bundle-api-2.0.48.jar
+    file:<YouTrack Home>/lib/jetty-io-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/bundle-internal-api-2.0.48.jar
+    file:<YouTrack Home>/lib/jetty-http-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/log4j-api-2.17.1.jar
+    file:<YouTrack Home>/lib/jetty-servlets-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/jetty-util-ajax-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/jetty-quickstart-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/asm-commons-7.3.1.jar
+    file:<YouTrack Home>/lib/jetty-security-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/javax-websocket-client-impl-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/jetty-server-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/jetty-plus-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/http2-hpack-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/javax.servlet-api-3.1.0.jar
+    file:<YouTrack Home>/lib/jcl-over-slf4j-1.8.0-beta4.jar
+    file:<YouTrack Home>/lib/websocket-servlet-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/jetty-jmx-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/websocket-common-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/javax.annotation-api-1.3.2.jar
+    file:<YouTrack Home>/lib/jetty-client-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/bundle-bootstrap-2.0.48.jar
+    file:<YouTrack Home>/lib/jetty-servlet-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/jetty-util-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/websocket-api-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/jetty-deploy-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/jetty-proxy-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/jul-to-slf4j-1.8.0-beta4.jar
+    file:<YouTrack Home>/lib/log4j-slf4j18-impl-2.17.1.jar
+    file:<YouTrack Home>/lib/jetty-alpn-server-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/asm-7.3.1.jar
+    file:<YouTrack Home>/lib/jetty-annotations-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/websocket-server-9.4.49.v20220914.jar
+    file:<YouTrack Home>/lib/alpn/1.9/activation-1.1.1.jar
+    file:<YouTrack Home>/lib/alpn/1.9/jetty-alpn-java-server-9.4.49.v20220914.jar
+}
+with parent java.net.URLClassLoader {
+    file:<YouTrack Home>/launcher/lib/app-wrapper/app-wrapper-api.jar
+    file:<YouTrack Home>/launcher/lib/app-wrapper/../common/launcher-api.jar
+    file:<YouTrack Home>/launcher/lib/app-wrapper/../common/launcher-runtime-api.jar
+}
+with parent jdk.internal.loader.ClassLoaders$PlatformClassLoader
+[2024-03-26 07:41:03,489]  DEBUG - ncher.log.AppWrapperLoggerImpl - [APP-WRAPPER] JetLauncher version: 1.0.206
+[2024-03-26 07:41:04,227]  DEBUG - ncher.log.AppWrapperLoggerImpl - [APP-WRAPPER] Starting YouTrack...
+[2024-03-26 07:41:04,253]  DEBUG - ncher.log.AppWrapperLoggerImpl - [APP-WRAPPER] [Server] Server started on port 45525
+[2024-03-26 07:43:47,758]  DEBUG - ncher.log.AppWrapperLoggerImpl - [APP-WRAPPER] YouTrack was started

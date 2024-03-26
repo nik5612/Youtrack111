@@ -1,0 +1,157 @@
+26/03/24 07:43:12,397 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/0-0-0-0-0
+ 26/03/24 07:43:12,502 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/0-0-0-0-0/viewers
+ 26/03/24 07:43:12,648 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services
+ 26/03/24 07:43:12,718 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/43909114-a016-44df-9ebe-95de9313fa7c
+ 26/03/24 07:43:12,815 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services
+ 26/03/24 07:43:12,908 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/8cf85d8f-05ec-42b5-9ecb-313645b7cc7c
+ 26/03/24 07:43:12,949 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/viewers
+ 26/03/24 07:43:13,052 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad
+ 26/03/24 07:43:13,114 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad
+ 26/03/24 07:43:13,623 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/settings/7f4bde81-af6f-4a5a-afe2-2e6c7540fc58
+ 26/03/24 07:43:13,660 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/settings/7f4bde81-af6f-4a5a-afe2-2e6c7540fc58
+ 26/03/24 07:43:13,798 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/settings/971d66a4-f079-4950-8d4d-2c94c815e9bf
+ 26/03/24 07:43:13,978 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/permissions?fields=id
+ 26/03/24 07:43:14,013 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/permissions?fields=id
+ 26/03/24 07:43:14,046 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/permissions?fields=id
+ 26/03/24 07:43:14,082 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/permissions?fields=id
+ 26/03/24 07:43:14,123 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/permissions?fields=id
+ 26/03/24 07:43:14,179 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/permissions?fields=id
+ 26/03/24 07:43:14,230 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/permissions?fields=id
+ 26/03/24 07:43:14,275 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/permissions?fields=id
+ 26/03/24 07:43:14,331 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/permissions?fields=id
+ 26/03/24 07:43:14,565 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/permissions?fields=id
+ 26/03/24 07:43:14,614 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/permissions?fields=id
+ 26/03/24 07:43:14,655 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/permissions?fields=id
+ 26/03/24 07:43:14,699 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/permissions?fields=id
+ 26/03/24 07:43:14,759 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/permissions?fields=id
+ 26/03/24 07:43:14,807 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/permissions?fields=id
+ 26/03/24 07:43:14,854 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/permissions?fields=id
+ 26/03/24 07:43:14,903 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/permissions?fields=id
+ 26/03/24 07:43:14,955 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/permissions?fields=id
+ 26/03/24 07:43:15,009 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/permissions?fields=id
+ 26/03/24 07:43:15,054 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/permissions?fields=id
+ 26/03/24 07:43:15,140 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/permissions?fields=id
+ 26/03/24 07:43:15,186 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/permissions?fields=id
+ 26/03/24 07:43:15,238 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/permissions?fields=id
+ 26/03/24 07:43:15,362 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/permissions?fields=id
+ 26/03/24 07:43:15,429 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/permissions?fields=id
+ 26/03/24 07:43:15,473 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/permissions?fields=id
+ 26/03/24 07:43:15,523 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/permissions?fields=id
+ 26/03/24 07:43:15,602 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/permissions?fields=id
+ 26/03/24 07:43:15,656 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/permissions?fields=id
+ 26/03/24 07:43:15,689 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/permissions?fields=id
+ 26/03/24 07:43:15,745 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/permissions?fields=id
+ 26/03/24 07:43:15,820 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/permissions?fields=id
+ 26/03/24 07:43:15,868 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/permissions?fields=id
+ 26/03/24 07:43:15,926 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/permissions?fields=id
+ 26/03/24 07:43:15,968 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/permissions?fields=id
+ 26/03/24 07:43:16,013 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/permissions?fields=id
+ 26/03/24 07:43:16,059 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/permissions?fields=id
+ 26/03/24 07:43:16,105 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/permissions?fields=id
+ 26/03/24 07:43:16,150 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/permissions?fields=id
+ 26/03/24 07:43:16,188 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/permissions?fields=id
+ 26/03/24 07:43:16,225 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/permissions?fields=id
+ 26/03/24 07:43:16,304 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/defaultroles
+ 26/03/24 07:43:16,343 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/defaultroles
+ 26/03/24 07:43:16,409 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/defaultroles
+ 26/03/24 07:43:16,497 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/defaultroles
+ 26/03/24 07:43:16,586 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/defaultroles
+ 26/03/24 07:43:16,688 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/roles/5da2a09c-071e-40a7-bb0d-5a3c67a0ee17
+ 26/03/24 07:43:16,747 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/roles
+ 26/03/24 07:43:16,807 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/roles/9ad48d64-c717-4ee3-b038-235796cc2983
+ 26/03/24 07:43:16,854 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/roles
+ 26/03/24 07:43:16,924 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/roles/4c7eb566-e7c3-4e15-97a1-aebf63e4b5e0
+ 26/03/24 07:43:17,020 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/usergroups/dad3d013-6433-46a3-8feb-e1ac612f1e07
+ 26/03/24 07:43:19,751 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/usergroups/00ec29d2-59a6-46fa-9185-2b89a5b91487
+ 26/03/24 07:43:20,232 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/users/41f13362-8bb4-4f35-8e89-8a8a14eb286a
+ 26/03/24 07:43:20,469 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/users/1ec3e0b3-58d5-481e-bab9-14b521b204c7
+ 26/03/24 07:43:21,793 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/settings/d46bf8c2-d872-4a21-b9db-b9d0611767ad
+ 26/03/24 07:43:24,157 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/users/41f13362-8bb4-4f35-8e89-8a8a14eb286a
+ 26/03/24 07:43:24,358 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/usergroups/dad3d013-6433-46a3-8feb-e1ac612f1e07
+ 26/03/24 07:43:24,502 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/usergroups/00ec29d2-59a6-46fa-9185-2b89a5b91487
+ 26/03/24 07:43:24,612 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/settings/7f4bde81-af6f-4a5a-afe2-2e6c7540fc58
+ 26/03/24 07:43:24,624 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/settings/7f4bde81-af6f-4a5a-afe2-2e6c7540fc58
+ 26/03/24 07:43:24,678 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/permissions/e08ca5fb-fcf1-4296-9a55-137ca8584a29
+ 26/03/24 07:43:24,768 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/permissions/b681479a-692d-4c15-b57a-4954dd31944a
+ 26/03/24 07:43:24,834 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/permissions/aa28597d-66a8-46a1-ad1d-da00cf938774
+ 26/03/24 07:43:24,906 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/permissions/9cfaea94-eee6-4ed8-8d08-f9d8a5b3229e
+ 26/03/24 07:43:24,966 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/permissions/ac299501-89cf-40f4-bf6a-fb499ff64c9b
+ 26/03/24 07:43:25,024 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/permissions/61e3bb2f-d09d-47bc-b3ce-bc876a1f11f8
+ 26/03/24 07:43:25,086 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/permissions/58fb5fda-16ce-4c21-be65-f516ab165132
+ 26/03/24 07:43:25,150 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/permissions/81659e26-68d3-4c48-9305-0209d6f4f060
+ 26/03/24 07:43:25,212 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/permissions/5ee7f739-71d0-4197-8d24-ac0e0c5909f1
+ 26/03/24 07:43:25,270 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/permissions/3433d60c-2999-4039-94d2-55dbf55c2370
+ 26/03/24 07:43:25,330 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/permissions/e1244ecd-6675-4620-b5fb-1aaba982bde4
+ 26/03/24 07:43:25,464 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/permissions/32eb89ab-6dbc-4cf0-8fbf-d391b79fd593
+ 26/03/24 07:43:25,531 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/permissions/b78d2d46-5d27-4500-9a4c-5015675edd94
+ 26/03/24 07:43:25,593 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/permissions/bf04fb10-6f75-4f16-bd60-96abc4a2c7da
+ 26/03/24 07:43:25,652 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/permissions/0de306fe-2797-4349-836c-35a0e6aa1057
+ 26/03/24 07:43:25,713 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/permissions/06876154-bdb1-44a9-b844-b9618b539887
+ 26/03/24 07:43:25,773 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/permissions/fcc4b6d9-9f98-4388-aa56-538e8b14e984
+ 26/03/24 07:43:25,834 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/permissions/31192455-4a44-4b04-9036-3992a44256b6
+ 26/03/24 07:43:25,903 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/permissions/8ad8ff55-94e7-4d9b-8641-3c0ba4ef7cef
+ 26/03/24 07:43:25,971 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/permissions/7e797673-1d89-432d-9187-cf1f69e2dcee
+ 26/03/24 07:43:26,041 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/permissions/ae12a6c5-94de-48b2-aac5-94c552d25ae6
+ 26/03/24 07:43:26,104 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/permissions/b73cc002-a68c-4cb7-9e01-dba6dd3bbbf3
+ 26/03/24 07:43:26,168 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/permissions/1b601fd9-18bf-4071-bd6a-3c4007300894
+ 26/03/24 07:43:26,228 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/permissions/474bda69-4cb9-49a3-941a-1308537febb0
+ 26/03/24 07:43:26,288 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/permissions/6233815d-6814-4252-add7-f318d6bfe8c1
+ 26/03/24 07:43:26,366 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/permissions/64c4ac69-fdb5-4226-8ee7-9177deb21146
+ 26/03/24 07:43:26,438 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/permissions/e52da037-3eb4-449c-866d-78c26b6a6790
+ 26/03/24 07:43:26,504 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/permissions/49048599-1396-435a-bc12-6b07afb9452f
+ 26/03/24 07:43:26,567 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/permissions/1c107fea-9e7f-4192-8763-4c3084dea6e2
+ 26/03/24 07:43:26,636 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/permissions/7b32c64d-7002-4367-b209-1f9e3c1f1192
+ 26/03/24 07:43:26,706 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/permissions/57d32c75-cc00-4dcc-99cd-38d4799244d1
+ 26/03/24 07:43:26,769 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/permissions/90737977-5fdc-4ccb-8d85-d86f1de1565a
+ 26/03/24 07:43:26,826 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/permissions/40be39e6-6548-4225-a206-ec8400c1957a
+ 26/03/24 07:43:26,895 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/permissions/5c4f3e7e-55f8-47b3-af9a-0a4f50a0df15
+ 26/03/24 07:43:26,971 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/permissions/8472d8c7-3e9e-4bff-90af-596e0e2e3a0f
+ 26/03/24 07:43:27,048 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/permissions/2784795a-a622-4e26-aec8-b351886fbbb0
+ 26/03/24 07:43:27,107 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/permissions/a2a75d8d-9a1c-4f85-a80f-7a8562f51ad1
+ 26/03/24 07:43:27,164 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/permissions/50ad0b61-73cf-40e3-81ff-0338169c854a
+ 26/03/24 07:43:27,224 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/permissions/746d8ce6-bfda-40e0-91ea-15228ea789d2
+ 26/03/24 07:43:27,282 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/permissions/474f7f62-b7a1-463b-9747-eb980641f950
+ 26/03/24 07:43:27,338 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/permissions/6201a081-d704-4f6c-86ca-90f3be46e9bf
+ 26/03/24 07:43:27,431 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/roles/5da2a09c-071e-40a7-bb0d-5a3c67a0ee17
+ 26/03/24 07:43:27,450 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/roles/1d33a138-9fae-4042-afea-087a080a563f
+ 26/03/24 07:43:27,475 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/roles/9ad48d64-c717-4ee3-b038-235796cc2983
+ 26/03/24 07:43:27,492 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/roles/667c8b5c-92c4-4fba-871c-f9244dccc8bd
+ 26/03/24 07:43:27,524 INFO  [@init servlet   ] [audit                         ] [system_user@l2Q1@] POST http://127.0.0.1:8080/hub/api/rest/roles/4c7eb566-e7c3-4e15-97a1-aebf63e4b5e0
+ 26/03/24 07:43:27,561 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad/viewers
+ 26/03/24 07:43:27,649 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad
+ 26/03/24 07:43:27,673 INFO  [@init servlet   ] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad
+ 26/03/24 07:43:35,039 INFO  [@init servlet   ] [audit                         ] [root@] POST http://127.0.0.1:8080/hub/api/rest/resources
+ 26/03/24 07:43:35,179 INFO  [@init servlet   ] [audit                         ] [root@] POST http://127.0.0.1:8080/hub/api/rest/projects?fields=id%2Cteam%2Fid%2Cicon
+ 26/03/24 07:43:35,243 INFO  [@init servlet   ] [audit                         ] [root@] POST http://127.0.0.1:8080/hub/api/rest/projects/25d2b032-ff90-4b99-9d2e-58444a48d6f1/resources?fields=id
+ 26/03/24 07:43:41,212 INFO  [@init servlet   ] [audit                         ] [root@] POST http://127.0.0.1:8080/hub/api/rest/users/1ec3e0b3-58d5-481e-bab9-14b521b204c7/favoriteprojects
+ 26/03/24 07:43:41,267 INFO  [@init servlet   ] [audit                         ] [root@] POST http://127.0.0.1:8080/hub/api/rest/resources/9bc59093-89de-49c2-ac1e-a6f96d462098
+ 26/03/24 07:43:41,415 INFO  [@init servlet   ] [audit                         ] [root@] POST http://127.0.0.1:8080/hub/api/rest/projects/25d2b032-ff90-4b99-9d2e-58444a48d6f1
+ 26/03/24 07:43:41,624 INFO  [@init servlet   ] [audit                         ] [root@] POST http://127.0.0.1:8080/hub/api/rest/dashboards?fields=id
+ 26/03/24 07:43:46,067 INFO  [@qtp300548333-48] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad
+ 26/03/24 07:43:46,141 INFO  [@qtp300548333-48] [audit                         ] [@] POST http://127.0.0.1:8080/hub/api/rest/services/861ff3c5-d1c1-4060-97b7-f5a2ce8584ad
+ 26/03/24 07:44:00,585 INFO  [@tp300548333-172] [audit                         ] [root@10.0.31.243] POST http://127.0.0.1:8080/hub/api/rest/resources/9bc59093-89de-49c2-ac1e-a6f96d462098
+ 26/03/24 07:44:00,713 INFO  [@tp300548333-172] [audit                         ] [root@10.0.31.243] POST http://127.0.0.1:8080/hub/api/rest/projects/25d2b032-ff90-4b99-9d2e-58444a48d6f1
+ 26/03/24 07:44:01,745 INFO  [@t-user-action-3] [audit                         ] [root@10.0.31.243] DELETE http://127.0.0.1:8080/hub/api/rest/dashboards/baac6544-4b87-4bb0-8b65-0a3ab62c89fe
+ 26/03/24 07:44:02,070 INFO  [@t-user-action-3] [audit                         ] [root@10.0.31.243] DELETE http://127.0.0.1:8080/hub/api/rest/projects/25d2b032-ff90-4b99-9d2e-58444a48d6f1
+ 26/03/24 07:44:02,096 INFO  [@t-user-action-3] [audit                         ] [root@10.0.31.243] DELETE http://127.0.0.1:8080/hub/api/rest/resources/9bc59093-89de-49c2-ac1e-a6f96d462098
+ 26/03/24 07:44:02,741 INFO  [@t-user-action-3] [audit                         ] [root@10.0.31.243] POST http://127.0.0.1:8080/hub/api/rest/users/1ec3e0b3-58d5-481e-bab9-14b521b204c7
+ 26/03/24 07:44:47,306 INFO  [@tp300548333-172] [audit                         ] [root@10.0.31.243] POST http://127.0.0.1:8080/hub/api/rest/resources
+ 26/03/24 07:44:47,371 INFO  [@tp300548333-172] [audit                         ] [root@10.0.31.243] POST http://127.0.0.1:8080/hub/api/rest/projects/e26c3bec-ac44-42dc-a7ea-fafa188d8853/resources?fields=id
+ 26/03/24 07:44:47,650 INFO  [@tp300548333-172] [audit                         ] [root@10.0.31.243] POST http://127.0.0.1:8080/hub/api/rest/users/1ec3e0b3-58d5-481e-bab9-14b521b204c7/favoriteprojects
+ 26/03/24 07:44:47,678 INFO  [@tp300548333-172] [audit                         ] [root@10.0.31.243] POST http://127.0.0.1:8080/hub/api/rest/resources/0d4adcaa-59e3-453c-84e1-7460fc95024f
+ 26/03/24 07:44:47,747 INFO  [@tp300548333-172] [audit                         ] [root@10.0.31.243] POST http://127.0.0.1:8080/hub/api/rest/projects/e26c3bec-ac44-42dc-a7ea-fafa188d8853
+ 26/03/24 07:46:43,326 INFO  [@tp300548333-163] [audit                         ] [root@10.0.31.243] POST http://127.0.0.1:8080/hub/api/rest/users/35b58718-2502-4296-8ffc-0e0d8bcd5413
+ 26/03/24 07:47:54,917 INFO  [@qtp300548333-43] [audit                         ] [root@10.0.31.243] POST http://127.0.0.1:8080/hub/api/rest/users/55ff2bc8-540f-4743-bf36-3a4a253b159a
+ 26/03/24 07:50:39,811 INFO  [@qtp300548333-40] [audit                         ] [root@10.0.31.243] POST http://127.0.0.1:8080/hub/api/rest/users/57178da0-5168-46d8-ac1e-55d1fe02298e
+ 26/03/24 07:55:06,790 INFO  [@qtp300548333-48] [audit                         ] [root@10.0.31.243] POST http://127.0.0.1:8080/hub/api/rest/resources
+ 26/03/24 07:55:06,827 INFO  [@qtp300548333-48] [audit                         ] [root@10.0.31.243] POST http://127.0.0.1:8080/hub/api/rest/projects/1a0cb7b8-32a4-4ed2-9c03-47c2e4b38984/resources?fields=id
+ 26/03/24 07:55:07,957 INFO  [@qtp300548333-48] [audit                         ] [root@10.0.31.243] POST http://127.0.0.1:8080/hub/api/rest/users/1ec3e0b3-58d5-481e-bab9-14b521b204c7/favoriteprojects
+ 26/03/24 07:55:07,980 INFO  [@qtp300548333-48] [audit                         ] [root@10.0.31.243] POST http://127.0.0.1:8080/hub/api/rest/resources/f6a061c8-ff2f-4936-a1b8-43ad3cff2dff
+ 26/03/24 07:55:08,038 INFO  [@qtp300548333-48] [audit                         ] [root@10.0.31.243] POST http://127.0.0.1:8080/hub/api/rest/projects/1a0cb7b8-32a4-4ed2-9c03-47c2e4b38984
+ 26/03/24 07:59:10,074 INFO  [@tp300548333-219] [audit                         ] [root@10.0.31.243] POST http://127.0.0.1:8080/hub/api/rest/settings/d46bf8c2-d872-4a21-b9db-b9d0611767ad
+ 26/03/24 07:59:10,108 INFO  [@tp300548333-219] [audit                         ] [root@10.0.31.243] POST http://127.0.0.1:8080/hub/api/rest/settings/7f4bde81-af6f-4a5a-afe2-2e6c7540fc58
+ 26/03/24 07:59:10,115 INFO  [@tp300548333-219] [audit                         ] [root@10.0.31.243] POST http://127.0.0.1:8080/hub/api/rest/settings/7f4bde81-af6f-4a5a-afe2-2e6c7540fc58
+ 26/03/24 08:01:56,926 INFO  [@tp300548333-209] [audit                         ] [root@10.0.31.243] POST http://127.0.0.1:8080/hub/api/rest/settings/d46bf8c2-d872-4a21-b9db-b9d0611767ad
+ 26/03/24 08:01:56,951 INFO  [@tp300548333-209] [audit                         ] [root@10.0.31.243] POST http://127.0.0.1:8080/hub/api/rest/settings/7f4bde81-af6f-4a5a-afe2-2e6c7540fc58
+ 26/03/24 08:01:56,957 INFO  [@tp300548333-209] [audit                         ] [root@10.0.31.243] POST http://127.0.0.1:8080/hub/api/rest/settings/7f4bde81-af6f-4a5a-afe2-2e6c7540fc58
+ 

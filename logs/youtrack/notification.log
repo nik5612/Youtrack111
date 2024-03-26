@@ -1,0 +1,139 @@
+26/03/24 07:43:23,834 INFO  [@init servlet   ] [FreemarkerConfiguration       ] [system_user@l2Q1@] Finished initialization of "Notification" freemarker configuration
+ 26/03/24 07:43:32,724 INFO  [@init servlet   ] [NotificationJobProcessorUtils ] [@] Applying notification send delay 60000 (using for cluster notification merge)
+ 26/03/24 07:43:42,734 INFO  [@ssue-analysis-1] [AnalysisDurabilityJob         ] [@] [AD:1711439022725] started, processing PersistentEvent (11-X..11-28]
+ 26/03/24 08:33:12,780 INFO  [@sue-analysis-34] [AnalysisDurabilityJob         ] [@] [AD:1711441992779] started, processing PersistentEvent (11-X..11-29]
+ 26/03/24 08:33:12,816 INFO  [@tion-analyzer-1] [AbstractAnalyzerJob           ] [@] [DG_AJ:001-1:11-29#11-29:1-1] started
+ 26/03/24 08:33:12,824 INFO  [@tion-analyzer-1] [AnalyzerMonitor               ] [@] [DG_AJ:001-1:11-29#11-29:1-1] started [001-1:analysis in state after change]
+ 26/03/24 08:33:12,941 INFO  [@tion-analyzer-1] [AnalyzerMonitor               ] [@] [DG_AJ:001-1:11-29#11-29:1-1] skipped [001-1:analysis in state before change]
+ 26/03/24 08:33:12,942 INFO  [@tion-analyzer-1] [AnalyzerMonitor               ] [@] [DG_AJ:001-1:11-29#11-29:1-1] started [001-1:user mentions analysis]
+ 26/03/24 08:33:12,951 INFO  [@tion-analyzer-1] [AnalyzerMonitor               ] [@] [DG_AJ:001-1:11-29#11-29:1-1] started [001-1:user reaction analysis]
+ 26/03/24 08:33:12,963 INFO  [@tion-analyzer-1] [AbstractAnalyzerJob           ] [@] [DG_AJ:001-1:11-29#11-29:1-1] didn't persist any notification job
+ 26/03/24 08:34:42,784 INFO  [@sue-analysis-35] [AnalysisDurabilityJob         ] [@] [AD:1711442082780] started, processing PersistentEvent (11-29..11-31]
+ 26/03/24 08:36:12,782 INFO  [@sue-analysis-36] [AnalysisDurabilityJob         ] [@] [AD:1711442172782] started, processing PersistentEvent (11-29..11-31]
+ 26/03/24 08:36:12,792 INFO  [@tion-analyzer-2] [AbstractAnalyzerJob           ] [@] [DG_AJ:001-2:11-30#11-30:1-1] started
+ 26/03/24 08:36:12,793 INFO  [@tion-analyzer-2] [AnalyzerMonitor               ] [@] [DG_AJ:001-2:11-30#11-30:1-1] started [001-2:analysis in state after change]
+ 26/03/24 08:36:12,815 INFO  [@tion-analyzer-2] [AnalyzerMonitor               ] [@] [DG_AJ:001-2:11-30#11-30:1-1] skipped [001-2:analysis in state before change]
+ 26/03/24 08:36:12,815 INFO  [@tion-analyzer-2] [AnalyzerMonitor               ] [@] [DG_AJ:001-2:11-30#11-30:1-1] started [001-2:user mentions analysis]
+ 26/03/24 08:36:12,816 INFO  [@tion-analyzer-2] [AnalyzerMonitor               ] [@] [DG_AJ:001-2:11-30#11-30:1-1] started [001-2:user reaction analysis]
+ 26/03/24 08:36:12,816 INFO  [@tion-analyzer-2] [AbstractAnalyzerJob           ] [@] [DG_AJ:001-2:11-30#11-30:1-1] didn't persist any notification job
+ 26/03/24 08:36:12,820 INFO  [@tion-analyzer-2] [AbstractAnalyzerJob           ] [@] [DG_AJ:001-3:11-31#11-31:1-1] started
+ 26/03/24 08:36:12,820 INFO  [@tion-analyzer-2] [AnalyzerMonitor               ] [@] [DG_AJ:001-3:11-31#11-31:1-1] started [001-3:analysis in state after change]
+ 26/03/24 08:36:12,829 INFO  [@tion-analyzer-2] [AnalyzerMonitor               ] [@] [DG_AJ:001-3:11-31#11-31:1-1] skipped [001-3:analysis in state before change]
+ 26/03/24 08:36:12,829 INFO  [@tion-analyzer-2] [AnalyzerMonitor               ] [@] [DG_AJ:001-3:11-31#11-31:1-1] started [001-3:user mentions analysis]
+ 26/03/24 08:36:12,829 INFO  [@tion-analyzer-2] [AnalyzerMonitor               ] [@] [DG_AJ:001-3:11-31#11-31:1-1] started [001-3:user reaction analysis]
+ 26/03/24 08:36:12,830 INFO  [@tion-analyzer-2] [AbstractAnalyzerJob           ] [@] [DG_AJ:001-3:11-31#11-31:1-1] didn't persist any notification job
+ 26/03/24 08:39:12,786 INFO  [@sue-analysis-38] [AnalysisDurabilityJob         ] [@] [AD:1711442352785] started, processing PersistentEvent (11-31..11-32]
+ 26/03/24 08:39:12,792 INFO  [@tion-analyzer-3] [AbstractAnalyzerJob           ] [@] [DG_AJ:001-4:11-32#11-32:1-1] started
+ 26/03/24 08:39:12,792 INFO  [@tion-analyzer-3] [AnalyzerMonitor               ] [@] [DG_AJ:001-4:11-32#11-32:1-1] started [001-4:analysis in state after change]
+ 26/03/24 08:39:12,818 INFO  [@tion-analyzer-3] [AnalyzerMonitor               ] [@] [DG_AJ:001-4:11-32#11-32:1-1] skipped [001-4:analysis in state before change]
+ 26/03/24 08:39:12,818 INFO  [@tion-analyzer-3] [AnalyzerMonitor               ] [@] [DG_AJ:001-4:11-32#11-32:1-1] started [001-4:user mentions analysis]
+ 26/03/24 08:39:12,819 INFO  [@tion-analyzer-3] [AnalyzerMonitor               ] [@] [DG_AJ:001-4:11-32#11-32:1-1] started [001-4:user reaction analysis]
+ 26/03/24 08:39:12,819 INFO  [@tion-analyzer-3] [AbstractAnalyzerJob           ] [@] [DG_AJ:001-4:11-32#11-32:1-1] didn't persist any notification job
+ 26/03/24 08:40:42,787 INFO  [@sue-analysis-39] [AnalysisDurabilityJob         ] [@] [AD:1711442442786] started, processing PersistentEvent (11-32..11-33]
+ 26/03/24 08:42:12,788 INFO  [@sue-analysis-40] [AnalysisDurabilityJob         ] [@] [AD:1711442532788] started, processing PersistentEvent (11-32..11-35]
+ 26/03/24 08:42:12,803 INFO  [@tion-analyzer-4] [AbstractAnalyzerJob           ] [@] [DG_AJ:001-5:11-33#11-33:1-1] started
+ 26/03/24 08:42:12,803 INFO  [@tion-analyzer-4] [AnalyzerMonitor               ] [@] [DG_AJ:001-5:11-33#11-33:1-1] started [001-5:analysis in state after change]
+ 26/03/24 08:42:12,832 INFO  [@tion-analyzer-4] [AnalyzerMonitor               ] [@] [DG_AJ:001-5:11-33#11-33:1-1] skipped [001-5:analysis in state before change]
+ 26/03/24 08:42:12,832 INFO  [@tion-analyzer-4] [AnalyzerMonitor               ] [@] [DG_AJ:001-5:11-33#11-33:1-1] started [001-5:user mentions analysis]
+ 26/03/24 08:42:12,833 INFO  [@tion-analyzer-4] [AnalyzerMonitor               ] [@] [DG_AJ:001-5:11-33#11-33:1-1] started [001-5:user reaction analysis]
+ 26/03/24 08:42:12,833 INFO  [@tion-analyzer-4] [AbstractAnalyzerJob           ] [@] [DG_AJ:001-5:11-33#11-33:1-1] didn't persist any notification job
+ 26/03/24 08:43:42,790 INFO  [@sue-analysis-41] [AnalysisDurabilityJob         ] [@] [AD:1711442622789] started, processing PersistentEvent (11-33..11-37]
+ 26/03/24 08:43:42,881 INFO  [@tion-analyzer-5] [AbstractAnalyzerJob           ] [@] [DG_AJ:001-6:11-34#11-34:1-1] started
+ 26/03/24 08:43:42,882 INFO  [@tion-analyzer-5] [AnalyzerMonitor               ] [@] [DG_AJ:001-6:11-34#11-34:1-1] started [001-6:analysis in state after change]
+ 26/03/24 08:43:42,893 INFO  [@tion-analyzer-5] [AnalyzerMonitor               ] [@] [DG_AJ:001-6:11-34#11-34:1-1] skipped [001-6:analysis in state before change]
+ 26/03/24 08:43:42,893 INFO  [@tion-analyzer-5] [AnalyzerMonitor               ] [@] [DG_AJ:001-6:11-34#11-34:1-1] started [001-6:user mentions analysis]
+ 26/03/24 08:43:42,893 INFO  [@tion-analyzer-5] [AnalyzerMonitor               ] [@] [DG_AJ:001-6:11-34#11-34:1-1] started [001-6:user reaction analysis]
+ 26/03/24 08:43:42,894 INFO  [@tion-analyzer-5] [AbstractAnalyzerJob           ] [@] [DG_AJ:001-6:11-34#11-34:1-1] didn't persist any notification job
+ 26/03/24 08:45:12,796 INFO  [@sue-analysis-42] [AnalysisDurabilityJob         ] [@] [AD:1711442712791] started, processing PersistentEvent (11-34..11-48]
+ 26/03/24 08:45:12,814 INFO  [@tion-analyzer-6] [AbstractAnalyzerJob           ] [@] [DG_AJ:001-7:11-35#11-37:1-1] started
+ 26/03/24 08:45:12,814 INFO  [@tion-analyzer-6] [AnalyzerMonitor               ] [@] [DG_AJ:001-7:11-35#11-37:1-1] started [001-7:analysis in state after change]
+ 26/03/24 08:45:12,836 INFO  [@tion-analyzer-6] [AnalyzerMonitor               ] [@] [DG_AJ:001-7:11-35#11-37:1-1] skipped [001-7:analysis in state before change]
+ 26/03/24 08:45:12,836 INFO  [@tion-analyzer-6] [AnalyzerMonitor               ] [@] [DG_AJ:001-7:11-35#11-37:1-1] started [001-7:user mentions analysis]
+ 26/03/24 08:45:12,837 INFO  [@tion-analyzer-6] [AnalyzerMonitor               ] [@] [DG_AJ:001-7:11-35#11-37:1-1] started [001-7:user reaction analysis]
+ 26/03/24 08:45:12,837 INFO  [@tion-analyzer-6] [AbstractAnalyzerJob           ] [@] [DG_AJ:001-7:11-35#11-37:1-1] didn't persist any notification job
+ 26/03/24 08:45:12,841 INFO  [@tion-analyzer-6] [AbstractAnalyzerJob           ] [@] [DG_AJ:001-8:11-38#11-38:1-1] started
+ 26/03/24 08:45:12,841 INFO  [@tion-analyzer-6] [AnalyzerMonitor               ] [@] [DG_AJ:001-8:11-38#11-38:1-1] started [001-8:analysis in state after change]
+ 26/03/24 08:45:12,850 INFO  [@tion-analyzer-6] [AnalyzerMonitor               ] [@] [DG_AJ:001-8:11-38#11-38:1-1] skipped [001-8:analysis in state before change]
+ 26/03/24 08:45:12,850 INFO  [@tion-analyzer-6] [AnalyzerMonitor               ] [@] [DG_AJ:001-8:11-38#11-38:1-1] started [001-8:user mentions analysis]
+ 26/03/24 08:45:12,851 INFO  [@tion-analyzer-6] [AnalyzerMonitor               ] [@] [DG_AJ:001-8:11-38#11-38:1-1] started [001-8:user reaction analysis]
+ 26/03/24 08:45:12,851 INFO  [@tion-analyzer-6] [AbstractAnalyzerJob           ] [@] [DG_AJ:001-8:11-38#11-38:1-1] didn't persist any notification job
+ 26/03/24 08:46:42,793 INFO  [@sue-analysis-43] [AnalysisDurabilityJob         ] [@] [AD:1711442802792] started, processing PersistentEvent (11-38..11-52]
+ 26/03/24 08:46:42,824 INFO  [@tion-analyzer-7] [AbstractAnalyzerJob           ] [@] [DG_AJ:001-9:11-39#11-48:1-1] started
+ 26/03/24 08:46:42,825 INFO  [@tion-analyzer-7] [AnalyzerMonitor               ] [@] [DG_AJ:001-9:11-39#11-48:1-1] started [001-9:analysis in state after change]
+ 26/03/24 08:46:42,834 INFO  [@tion-analyzer-7] [AnalyzerMonitor               ] [@] [DG_AJ:001-9:11-39#11-48:1-1] skipped [001-9:analysis in state before change]
+ 26/03/24 08:46:42,834 INFO  [@tion-analyzer-7] [AnalyzerMonitor               ] [@] [DG_AJ:001-9:11-39#11-48:1-1] started [001-9:user mentions analysis]
+ 26/03/24 08:46:42,835 INFO  [@tion-analyzer-7] [AnalyzerMonitor               ] [@] [DG_AJ:001-9:11-39#11-48:1-1] started [001-9:user reaction analysis]
+ 26/03/24 08:46:42,836 INFO  [@tion-analyzer-7] [AbstractAnalyzerJob           ] [@] [DG_AJ:001-9:11-39#11-48:1-1] didn't persist any notification job
+ 26/03/24 08:46:42,839 INFO  [@tion-analyzer-7] [AbstractAnalyzerJob           ] [@] [DG_AJ:001-1:11-40#11-49:1-1] started
+ 26/03/24 08:46:42,839 INFO  [@tion-analyzer-7] [AnalyzerMonitor               ] [@] [DG_AJ:001-1:11-40#11-49:1-1] started [001-1:analysis in state after change]
+ 26/03/24 08:46:42,932 INFO  [@tion-analyzer-7] [AnalyzerMonitor               ] [@] [DG_AJ:001-1:11-40#11-49:1-1] started [001-1:analysis in state before change]
+ 26/03/24 08:46:42,946 INFO  [@tion-analyzer-7] [AnalyzerMonitor               ] [@] [DG_AJ:001-1:11-40#11-49:1-1] started [001-1:user mentions analysis]
+ 26/03/24 08:46:42,946 INFO  [@tion-analyzer-7] [AnalyzerMonitor               ] [@] [DG_AJ:001-1:11-40#11-49:1-1] started [001-1:user reaction analysis]
+ 26/03/24 08:46:42,947 INFO  [@tion-analyzer-7] [AbstractAnalyzerJob           ] [@] [DG_AJ:001-1:11-40#11-49:1-1] didn't persist any notification job
+ 26/03/24 08:46:42,950 INFO  [@tion-analyzer-7] [AbstractAnalyzerJob           ] [@] [DG_AJ:001-2:11-41#11-41:1-1] started
+ 26/03/24 08:46:42,950 INFO  [@tion-analyzer-7] [AnalyzerMonitor               ] [@] [DG_AJ:001-2:11-41#11-41:1-1] started [001-2:analysis in state after change]
+ 26/03/24 08:46:42,958 INFO  [@tion-analyzer-7] [AnalyzerMonitor               ] [@] [DG_AJ:001-2:11-41#11-41:1-1] started [001-2:analysis in state before change]
+ 26/03/24 08:46:42,966 INFO  [@tion-analyzer-7] [AnalyzerMonitor               ] [@] [DG_AJ:001-2:11-41#11-41:1-1] started [001-2:user mentions analysis]
+ 26/03/24 08:46:42,966 INFO  [@tion-analyzer-7] [AnalyzerMonitor               ] [@] [DG_AJ:001-2:11-41#11-41:1-1] started [001-2:user reaction analysis]
+ 26/03/24 08:46:42,967 INFO  [@tion-analyzer-7] [AbstractAnalyzerJob           ] [@] [DG_AJ:001-2:11-41#11-41:1-1] didn't persist any notification job
+ 26/03/24 08:46:42,969 INFO  [@tion-analyzer-7] [AbstractAnalyzerJob           ] [@] [DG_AJ:001-3:11-42#11-42:1-1] started
+ 26/03/24 08:46:42,970 INFO  [@tion-analyzer-7] [AnalyzerMonitor               ] [@] [DG_AJ:001-3:11-42#11-42:1-1] started [001-3:analysis in state after change]
+ 26/03/24 08:46:42,980 INFO  [@tion-analyzer-7] [AnalyzerMonitor               ] [@] [DG_AJ:001-3:11-42#11-42:1-1] started [001-3:analysis in state before change]
+ 26/03/24 08:46:42,987 INFO  [@tion-analyzer-7] [AnalyzerMonitor               ] [@] [DG_AJ:001-3:11-42#11-42:1-1] started [001-3:user mentions analysis]
+ 26/03/24 08:46:42,988 INFO  [@tion-analyzer-7] [AnalyzerMonitor               ] [@] [DG_AJ:001-3:11-42#11-42:1-1] started [001-3:user reaction analysis]
+ 26/03/24 08:46:42,988 INFO  [@tion-analyzer-7] [AbstractAnalyzerJob           ] [@] [DG_AJ:001-3:11-42#11-42:1-1] didn't persist any notification job
+ 26/03/24 08:46:42,991 INFO  [@tion-analyzer-7] [AbstractAnalyzerJob           ] [@] [DG_AJ:001-4:11-43#11-52:1-1] started
+ 26/03/24 08:46:42,992 INFO  [@tion-analyzer-7] [AnalyzerMonitor               ] [@] [DG_AJ:001-4:11-43#11-52:1-1] started [001-4:analysis in state after change]
+ 26/03/24 08:46:43,000 INFO  [@tion-analyzer-7] [AnalyzerMonitor               ] [@] [DG_AJ:001-4:11-43#11-52:1-1] started [001-4:analysis in state before change]
+ 26/03/24 08:46:43,008 INFO  [@tion-analyzer-7] [AnalyzerMonitor               ] [@] [DG_AJ:001-4:11-43#11-52:1-1] started [001-4:user mentions analysis]
+ 26/03/24 08:46:43,009 INFO  [@tion-analyzer-7] [AnalyzerMonitor               ] [@] [DG_AJ:001-4:11-43#11-52:1-1] started [001-4:user reaction analysis]
+ 26/03/24 08:46:43,010 INFO  [@tion-analyzer-7] [AbstractAnalyzerJob           ] [@] [DG_AJ:001-4:11-43#11-52:1-1] didn't persist any notification job
+ 26/03/24 08:46:43,013 INFO  [@tion-analyzer-7] [AbstractAnalyzerJob           ] [@] [DG_AJ:001-5:11-44#11-44:1-1] started
+ 26/03/24 08:46:43,013 INFO  [@tion-analyzer-7] [AnalyzerMonitor               ] [@] [DG_AJ:001-5:11-44#11-44:1-1] started [001-5:analysis in state after change]
+ 26/03/24 08:46:43,022 INFO  [@tion-analyzer-7] [AnalyzerMonitor               ] [@] [DG_AJ:001-5:11-44#11-44:1-1] started [001-5:analysis in state before change]
+ 26/03/24 08:46:43,029 INFO  [@tion-analyzer-7] [AnalyzerMonitor               ] [@] [DG_AJ:001-5:11-44#11-44:1-1] started [001-5:user mentions analysis]
+ 26/03/24 08:46:43,030 INFO  [@tion-analyzer-7] [AnalyzerMonitor               ] [@] [DG_AJ:001-5:11-44#11-44:1-1] started [001-5:user reaction analysis]
+ 26/03/24 08:46:43,030 INFO  [@tion-analyzer-7] [AbstractAnalyzerJob           ] [@] [DG_AJ:001-5:11-44#11-44:1-1] didn't persist any notification job
+ 26/03/24 08:46:43,033 INFO  [@tion-analyzer-7] [AbstractAnalyzerJob           ] [@] [DG_AJ:001-6:11-45#11-51:1-1] started
+ 26/03/24 08:46:43,033 INFO  [@tion-analyzer-7] [AnalyzerMonitor               ] [@] [DG_AJ:001-6:11-45#11-51:1-1] started [001-6:analysis in state after change]
+ 26/03/24 08:46:43,041 INFO  [@tion-analyzer-7] [AnalyzerMonitor               ] [@] [DG_AJ:001-6:11-45#11-51:1-1] started [001-6:analysis in state before change]
+ 26/03/24 08:46:43,050 INFO  [@tion-analyzer-7] [AnalyzerMonitor               ] [@] [DG_AJ:001-6:11-45#11-51:1-1] started [001-6:user mentions analysis]
+ 26/03/24 08:46:43,051 INFO  [@tion-analyzer-7] [AnalyzerMonitor               ] [@] [DG_AJ:001-6:11-45#11-51:1-1] started [001-6:user reaction analysis]
+ 26/03/24 08:46:43,051 INFO  [@tion-analyzer-7] [AbstractAnalyzerJob           ] [@] [DG_AJ:001-6:11-45#11-51:1-1] didn't persist any notification job
+ 26/03/24 08:46:43,054 INFO  [@tion-analyzer-7] [AbstractAnalyzerJob           ] [@] [DG_AJ:001-7:11-46#11-46:1-1] started
+ 26/03/24 08:46:43,054 INFO  [@tion-analyzer-7] [AnalyzerMonitor               ] [@] [DG_AJ:001-7:11-46#11-46:1-1] started [001-7:analysis in state after change]
+ 26/03/24 08:46:43,061 INFO  [@tion-analyzer-7] [AnalyzerMonitor               ] [@] [DG_AJ:001-7:11-46#11-46:1-1] started [001-7:analysis in state before change]
+ 26/03/24 08:46:43,068 INFO  [@tion-analyzer-7] [AnalyzerMonitor               ] [@] [DG_AJ:001-7:11-46#11-46:1-1] started [001-7:user mentions analysis]
+ 26/03/24 08:46:43,069 INFO  [@tion-analyzer-7] [AnalyzerMonitor               ] [@] [DG_AJ:001-7:11-46#11-46:1-1] started [001-7:user reaction analysis]
+ 26/03/24 08:46:43,069 INFO  [@tion-analyzer-7] [AbstractAnalyzerJob           ] [@] [DG_AJ:001-7:11-46#11-46:1-1] didn't persist any notification job
+ 26/03/24 08:46:43,072 INFO  [@tion-analyzer-7] [AbstractAnalyzerJob           ] [@] [DG_AJ:001-8:11-47#11-50:1-1] started
+ 26/03/24 08:46:43,072 INFO  [@tion-analyzer-7] [AnalyzerMonitor               ] [@] [DG_AJ:001-8:11-47#11-50:1-1] started [001-8:analysis in state after change]
+ 26/03/24 08:46:43,079 INFO  [@tion-analyzer-7] [AnalyzerMonitor               ] [@] [DG_AJ:001-8:11-47#11-50:1-1] started [001-8:analysis in state before change]
+ 26/03/24 08:46:43,088 INFO  [@tion-analyzer-7] [AnalyzerMonitor               ] [@] [DG_AJ:001-8:11-47#11-50:1-1] started [001-8:user mentions analysis]
+ 26/03/24 08:46:43,089 INFO  [@tion-analyzer-7] [AnalyzerMonitor               ] [@] [DG_AJ:001-8:11-47#11-50:1-1] started [001-8:user reaction analysis]
+ 26/03/24 08:46:43,090 INFO  [@tion-analyzer-7] [AbstractAnalyzerJob           ] [@] [DG_AJ:001-8:11-47#11-50:1-1] didn't persist any notification job
+ 26/03/24 09:13:42,820 INFO  [@sue-analysis-61] [AnalysisDurabilityJob         ] [@] [AD:1711444422819] started, processing PersistentEvent (11-52..11-53]
+ 26/03/24 09:15:12,821 INFO  [@sue-analysis-62] [AnalysisDurabilityJob         ] [@] [AD:1711444512821] started, processing PersistentEvent (11-52..11-55]
+ 26/03/24 09:15:12,829 INFO  [@tion-analyzer-8] [AbstractAnalyzerJob           ] [@] [DG_AJ:001-10:11-53#11-53:1-5] started
+ 26/03/24 09:15:12,830 INFO  [@tion-analyzer-8] [AnalyzerMonitor               ] [@] [DG_AJ:001-10:11-53#11-53:1-5] started [001-10:analysis in state after change]
+ 26/03/24 09:15:12,851 INFO  [@tion-analyzer-8] [AnalyzerMonitor               ] [@] [DG_AJ:001-10:11-53#11-53:1-5] skipped [001-10:analysis in state before change]
+ 26/03/24 09:15:12,851 INFO  [@tion-analyzer-8] [AnalyzerMonitor               ] [@] [DG_AJ:001-10:11-53#11-53:1-5] started [001-10:user mentions analysis]
+ 26/03/24 09:15:12,852 INFO  [@tion-analyzer-8] [AnalyzerMonitor               ] [@] [DG_AJ:001-10:11-53#11-53:1-5] started [001-10:user reaction analysis]
+ 26/03/24 09:15:12,852 INFO  [@tion-analyzer-8] [AbstractAnalyzerJob           ] [@] [DG_AJ:001-10:11-53#11-53:1-5] didn't persist any notification job
+ 26/03/24 09:16:42,823 INFO  [@sue-analysis-63] [AnalysisDurabilityJob         ] [@] [AD:1711444602822] started, processing PersistentEvent (11-53..11-55]
+ 26/03/24 09:16:42,830 INFO  [@tion-analyzer-9] [AbstractAnalyzerJob           ] [@] [DG_AJ:001-11:11-54#11-55:1-5] started
+ 26/03/24 09:16:42,831 INFO  [@tion-analyzer-9] [AnalyzerMonitor               ] [@] [DG_AJ:001-11:11-54#11-55:1-5] started [001-11:analysis in state after change]
+ 26/03/24 09:16:42,840 INFO  [@tion-analyzer-9] [AnalyzerMonitor               ] [@] [DG_AJ:001-11:11-54#11-55:1-5] skipped [001-11:analysis in state before change]
+ 26/03/24 09:16:42,840 INFO  [@tion-analyzer-9] [AnalyzerMonitor               ] [@] [DG_AJ:001-11:11-54#11-55:1-5] started [001-11:user mentions analysis]
+ 26/03/24 09:16:42,841 INFO  [@tion-analyzer-9] [AnalyzerMonitor               ] [@] [DG_AJ:001-11:11-54#11-55:1-5] started [001-11:user reaction analysis]
+ 26/03/24 09:16:42,841 INFO  [@tion-analyzer-9] [AbstractAnalyzerJob           ] [@] [DG_AJ:001-11:11-54#11-55:1-5] didn't persist any notification job
+ 26/03/24 09:40:42,845 INFO  [@sue-analysis-79] [AnalysisDurabilityJob         ] [@] [AD:1711446042844] started, processing PersistentEvent (11-55..11-57]
+ 26/03/24 09:40:42,851 INFO  [@ion-analyzer-10] [AbstractAnalyzerJob           ] [@] [DG_AJ:001-11:11-56#11-57:1-1] started
+ 26/03/24 09:40:42,851 INFO  [@ion-analyzer-10] [AnalyzerMonitor               ] [@] [DG_AJ:001-11:11-56#11-57:1-1] started [001-11:analysis in state after change]
+ 26/03/24 09:40:42,872 INFO  [@ion-analyzer-10] [AnalyzerMonitor               ] [@] [DG_AJ:001-11:11-56#11-57:1-1] started [001-11:analysis in state before change]
+ 26/03/24 09:40:42,881 INFO  [@ion-analyzer-10] [AnalyzerMonitor               ] [@] [DG_AJ:001-11:11-56#11-57:1-1] started [001-11:user mentions analysis]
+ 26/03/24 09:40:42,882 INFO  [@ion-analyzer-10] [AnalyzerMonitor               ] [@] [DG_AJ:001-11:11-56#11-57:1-1] started [001-11:user reaction analysis]
+ 26/03/24 09:40:44,034 INFO  [@ion-analyzer-10] [AbstractAnalyzerJob           ] [@] [DG_AJ:001-11:11-56#11-57:1-1] persisted [UP_IS:001-11:11-56#11-57:1-1#1-5] -> [452-0, 404-0] due to [T#7-7]
+ 26/03/24 09:41:42,858 INFO  [@g-durability-79] [SendingDurabilityJob          ] [@] [SD:1711446102850] started, processing UserNotification [452-0..452-0] from interval (452-X..X)
+ 26/03/24 09:41:42,863 INFO  [@g-durability-79] [XdSendingDurability           ] [@] [452-0:UP_IS:1711446042927:001-11:11-56#11-57:1-1#1-5] -> X, no suitable channels
+ 

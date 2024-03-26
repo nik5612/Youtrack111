@@ -1,0 +1,775 @@
+26/03/24 07:42:03,076 INFO  [@init servlet   ] [Reflections                   ] [init@] Reflections took 3734 ms to scan 40 urls, producing 1963 keys and 71408 values
+ 26/03/24 07:42:14,262 INFO  [@init servlet   ] [Reflections                   ] [init@] Reflections took 2670 ms to scan 41 urls, producing 1993 keys and 71418 values
+ 26/03/24 07:42:26,407 INFO  [@init servlet   ] [WebClasspathXmlServiceLocator ] [init@] Adding default placeholder resolver: PropertySourcesPlaceholderConfigurer
+ 26/03/24 07:42:40,615 INFO  [@init servlet   ] [MessagesContainer             ] [init@] Default locale messages loaded
+ 26/03/24 07:42:47,631 INFO  [@init servlet   ] [Reflections                   ] [init@] Reflections took 4160 ms to scan 40 urls, producing 2029 keys and 115045 values
+ 26/03/24 07:42:50,900 INFO  [@init servlet   ] [EnvironmentImpl               ] [init@] Exodus environment created: /opt/youtrack/data/youtrack
+ 26/03/24 07:42:50,929 INFO  [@init servlet   ] [EntityIterableCacheAdapter    ] [init@] Using weighted eviction for entity iterable cache, maxWeight = 4473924
+ 26/03/24 07:42:51,136 INFO  [@init servlet   ] [PersistentEntityStoreImpl     ] [init@] Blob vault has been created at /opt/youtrack/data/youtrack/blobs
+ 26/03/24 07:42:53,790 INFO  [@init servlet   ] [EnvironmentImpl               ] [init@] Exodus environment created: /opt/youtrack/data/youtrack/textindex
+ 26/03/24 07:42:54,057 INFO  [@init servlet   ] [TextIndexManager              ] [init@] Initializing text index. Timestamp of last updated entry : 0(1970-01-01 00:00:00 UTC)
+ 26/03/24 07:42:54,637 INFO  [@init servlet   ] [security                      ] [init@] Ticket CCs[XdTicketCcFolder wrapper for TicketCcFolder: id = 77-0] for user search_user_605213625[92-0] created
+ 26/03/24 07:42:54,641 INFO  [@init servlet   ] [security                      ] [init@] Ticket Assignees[XdTicketAssigneeFolder wrapper for TicketAssigneeFolder: id = 83-0] for user search_user_605213625[92-0] created
+ 26/03/24 07:42:54,677 INFO  [@init servlet   ] [DnqUtils                      ] [init@] Execute entities initializers
+ 26/03/24 07:42:54,693 INFO  [@init servlet   ] [YouTrackInit                  ] [init@] Initializing YouTrack 2024.1.26888
+ 26/03/24 07:42:54,693 INFO  [@init servlet   ] [ApplicationStateHolderImpl    ] [init@] Application state changed from SPRING_STARTING to SPRING_INITIALIZED
+ 26/03/24 07:42:54,707 WARN  [@init servlet   ] [XdStorage                     ] [init@] Auxiliary truststore /opt/youtrack/conf/internal/keystore.jks does not exist, skipping
+ 26/03/24 07:42:54,734 INFO  [@init servlet   ] [ApplicationStateHolderImpl    ] [init@] Application state changed from SPRING_INITIALIZED to LOCALIZATION_SERVICE_INITIALIZED
+ 26/03/24 07:42:55,094 INFO  [@init servlet   ] [security                      ] [init@] User group Registered Users created
+ 26/03/24 07:42:55,380 INFO  [@init servlet   ] [DefaultSavedQueryProvider     ] [@] Creating localized default saved search "Assigned to me", query: for: me 
+ 26/03/24 07:42:55,385 INFO  [@init servlet   ] [DefaultSavedQueryProvider     ] [@] Updating localized default saved search "Assigned to me", share groups:  -> All Users
+ 26/03/24 07:42:55,437 INFO  [@init servlet   ] [DefaultSavedQueryProvider     ] [@] Creating localized default saved search "Commented by me", query: commenter: me 
+ 26/03/24 07:42:55,438 INFO  [@init servlet   ] [DefaultSavedQueryProvider     ] [@] Updating localized default saved search "Commented by me", share groups:  -> All Users
+ 26/03/24 07:42:55,445 INFO  [@init servlet   ] [DefaultSavedQueryProvider     ] [@] Creating localized default saved search "Reported by me", query: by: me 
+ 26/03/24 07:42:55,446 INFO  [@init servlet   ] [DefaultSavedQueryProvider     ] [@] Updating localized default saved search "Reported by me", share groups:  -> All Users
+ 26/03/24 07:42:55,479 INFO  [@init servlet   ] [DefaultSavedQueryProvider     ] [@] Creating localized default saved search "All issues", query: document type: Issue 
+ 26/03/24 07:42:55,484 INFO  [@init servlet   ] [DefaultSavedQueryProvider     ] [@] Updating localized default saved search "All issues", share groups:  -> All Users
+ 26/03/24 07:42:55,497 INFO  [@init servlet   ] [DefaultSavedQueryProvider     ] [@] Creating localized default saved search "All tickets", query: document type: Ticket 
+ 26/03/24 07:42:55,497 INFO  [@init servlet   ] [DefaultSavedQueryProvider     ] [@] Updating localized default saved search "All tickets", share groups:  -> All Users
+ 26/03/24 07:42:55,500 INFO  [@init servlet   ] [security                      ] [@] User root (root) is now root
+ 26/03/24 07:42:55,569 INFO  [@init servlet   ] [security                      ] [@] Assigned to me[XdSavedQuery wrapper for SavedQuery: id = 8-0] for user search_user_605213625[92-0] created
+ 26/03/24 07:42:55,579 INFO  [@init servlet   ] [security                      ] [@] Commented by me[XdSavedQuery wrapper for SavedQuery: id = 8-1] for user search_user_605213625[92-0] created
+ 26/03/24 07:42:55,588 INFO  [@init servlet   ] [security                      ] [@] Reported by me[XdSavedQuery wrapper for SavedQuery: id = 8-2] for user search_user_605213625[92-0] created
+ 26/03/24 07:42:55,599 INFO  [@init servlet   ] [security                      ] [@] All issues[XdSavedQuery wrapper for SavedQuery: id = 8-3] for user search_user_605213625[92-0] created
+ 26/03/24 07:42:55,601 INFO  [@init servlet   ] [security                      ] [@] All tickets[XdSavedQuery wrapper for SavedQuery: id = 8-4] for user search_user_605213625[92-0] created
+ 26/03/24 07:42:55,605 INFO  [@init servlet   ] [ApplicationStateHolderImpl    ] [@] Application state changed from LOCALIZATION_SERVICE_INITIALIZED to USER_SERVICE_INITIALIZED
+ 26/03/24 07:42:55,670 INFO  [@init servlet   ] [ApplicationStateHolderImpl    ] [@] Application state changed from USER_SERVICE_INITIALIZED to LICENSE_AND_LIABILITY_CHECKED
+ 26/03/24 07:42:55,695 INFO  [@init servlet   ] [ApplicationStateHolderImpl    ] [@] Application state changed from LICENSE_AND_LIABILITY_CHECKED to REFACTORINGS_STARTED
+ 26/03/24 07:42:55,697 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Starting youtrack-only refactorings...
+ 26/03/24 07:42:55,738 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.refactoring.RefactoringSetupInstanceUUIDSalt
+ 26/03/24 07:42:55,749 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.refactoring.RefactoringSubscribeToDefaultSystemSearches
+ 26/03/24 07:42:55,758 INFO  [@init servlet   ] [bscribeToDefaultSystemSearches] [@] Moving subscriptions for saved query "Assigned to me" owned by root to the one owned by system user
+ 26/03/24 07:42:55,762 INFO  [@init servlet   ] [bscribeToDefaultSystemSearches] [@] Moving subscriptions for saved query "Commented by me" owned by root to the one owned by system user
+ 26/03/24 07:42:55,766 INFO  [@init servlet   ] [bscribeToDefaultSystemSearches] [@] Moving subscriptions for saved query "Reported by me" owned by root to the one owned by system user
+ 26/03/24 07:42:55,768 INFO  [@init servlet   ] [bscribeToDefaultSystemSearches] [@] Moving subscriptions for saved query "All issues" owned by root to the one owned by system user
+ 26/03/24 07:42:55,770 INFO  [@init servlet   ] [bscribeToDefaultSystemSearches] [@] Moving subscriptions for saved query "All tickets" owned by root to the one owned by system user
+ 26/03/24 07:42:55,777 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.refactoring.RefactoringAddTagPermittedSettings
+ 26/03/24 07:42:55,791 INFO  [@init servlet   ] [RefactoringUtil               ] [@] 0 tags processed
+ 26/03/24 07:42:55,794 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.refactoring.RefactoringConvertThanksReaction
+ 26/03/24 07:42:55,800 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.refactoring.RefactoringRebuildJpegThumbnails
+ 26/03/24 07:42:55,810 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.refactoring.RefactoringConvertSomeReactionLabels
+ 26/03/24 07:42:55,814 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.refactoring.RefactoringCleanUpUserProfileProperties
+ 26/03/24 07:42:55,820 INFO  [@init servlet   ] [RefactoringUtil               ] [@] Removing XdUserProfile::feedSortAsc, XdUserProfile::vcsPromoSeen properties: 23 completed
+ 26/03/24 07:42:55,829 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.refactoring.RefactoringContributorToStandardUser
+ 26/03/24 07:42:55,835 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.refactoring.RefactoringCleanupUserDraftBrokenLinks
+ 26/03/24 07:42:55,845 INFO  [@init servlet   ] [RefactoringUtil               ] [@] processed 0 users with drafts
+ 26/03/24 07:42:55,854 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.refactoring.RefactoringRestoreAllUndeletedProjects
+ 26/03/24 07:42:55,858 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.refactoring.RefactoringSetTypeToProjects
+ 26/03/24 07:42:55,865 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.refactoring.UserJobRefactoringUpdateThumbnailsAndProcessRemovedAttachments
+ 26/03/24 07:42:55,893 INFO  [@init servlet   ] [UserJobRecursiveRefactoring   ] [@] UserJobRefactoringUpdateThumbnailsAndProcessRemovedAttachments_0-1000 user job is scheduled to start at around 2024-03-26T08:12:55.878Z
+ 26/03/24 07:42:55,897 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.refactoring.RefactoringPinSearchesByDefault
+ 26/03/24 07:42:55,907 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.refactoring.RefactoringShortcutScheme
+ 26/03/24 07:42:55,911 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.refactoring.RefactoringAddFirstRunDateTime_1
+ 26/03/24 07:42:55,916 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.refactoring.RefactoringAddCompactModeToProfile_1
+ 26/03/24 07:42:55,945 INFO  [@init servlet   ] [RefactoringUtil               ] [@] Compact mode set in 23 profiles
+ 26/03/24 07:42:55,950 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.refactoring.RefactoringAddAttachmentUuid
+ 26/03/24 07:42:55,956 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.refactoring.RefactoringSaveStarToUser
+ 26/03/24 07:42:55,960 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.imports.refactoring.RefactoringDeleteMinifyWhitespaceReplaceScript
+ 26/03/24 07:42:55,966 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.event.refactoring.recursive.UserJobRefactoringAddProjectToEvents
+ 26/03/24 07:42:55,969 INFO  [@init servlet   ] [UserJobRecursiveRefactoring   ] [@] UserJobRefactoringAddProjectToEvents_0-2000 user job is scheduled to start at around 2024-03-26T08:27:55.969Z
+ 26/03/24 07:42:55,971 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.event.refactoring.recursive.UserJobRefactoringChangeDiff
+ 26/03/24 07:42:55,977 INFO  [@init servlet   ] [UserJobRecursiveRefactoring   ] [@] UserJobRefactoringChangeDiff_1396078975971-31536000000 user job is disabled
+ 26/03/24 07:42:55,978 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.scripts.refactoring.RefactoringRemoveObsoleteUnusedScriptPackages
+ 26/03/24 07:42:55,984 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: Add backward link from data container
+ 26/03/24 07:42:56,700 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.scripts.refactoring.RefactoringSetPluginEnabled
+ 26/03/24 07:42:56,707 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.scripts.refactoring.RefactoringAddWidgetName
+ 26/03/24 07:42:56,712 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.scripts.refactoring.RefactoringAddWidgetConfigurations
+ 26/03/24 07:42:56,716 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.agile.refactorings.RefactoringAddOrdinalToSprint
+ 26/03/24 07:42:56,717 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.agile.refactorings.RefactoringAgileColorizeCustomFields
+ 26/03/24 07:42:56,721 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.charisma.teamcity.refactoring.RefactoringIntroduceChangesProcessingOption
+ 26/03/24 07:42:56,723 INFO  [@init servlet   ] [RefactoringUtil               ] [@] Migrated 0 XdTeamcityChangeProcessor
+ 26/03/24 07:42:56,726 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.integration.teamcity.refactoring.RefactoringSplitSinceBuildAndLastBuild
+ 26/03/24 07:42:56,728 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.integration.vcs.refactoring.RefactoringMoveSpaceIntegrationToApplicationWebHooks
+ 26/03/24 07:42:56,743 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Found 0 enabled space vcs processors with token based auth
+ 26/03/24 07:42:56,750 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.helpdesk.refactoring.RefactoringSetupHelpDeskProjectSettings
+ 26/03/24 07:42:56,755 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.helpdesk.refactoring.CalculateTicketRelatedUsersForHelpdesk
+ 26/03/24 07:42:56,756 INFO  [@init servlet   ] [UserJobRecursiveRefactoring   ] [@] CalculateTicketRelatedUsersForHelpdesk_0-5000 user job is scheduled to start at around 2024-03-26T07:47:56.756Z
+ 26/03/24 07:42:56,758 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.helpdesk.refactoring.RefactoringCreateActorSubscriptions
+ 26/03/24 07:42:56,881 INFO  [@init servlet   ] [XdRefactoring                 ] [@] [RefactoringCreateActorSubscriptions] processed 21/23 non-reporter users
+ 26/03/24 07:42:56,894 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.mailbox.refactoring.RefactoringAddMailboxLinkToMessages
+ 26/03/24 07:42:56,904 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.mailbox.refactoring.RefactoringExtractSubjectFromSeenMessages
+ 26/03/24 07:42:56,926 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.mailbox.refactoring.RefactoringTransformRelatedIdsToSet
+ 26/03/24 07:42:56,932 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.mailbox.refactoring.RefactoringAdjustDefaultFetchInterval
+ 26/03/24 07:42:56,951 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.mailbox.refactoring.RefactoringMigrateMailRulesToFilters2
+ 26/03/24 07:42:56,956 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.markup.refactoring.UserJobRefactoringRemoveWiki
+ 26/03/24 07:42:56,958 INFO  [@init servlet   ] [UserJobRecursiveRefactoring   ] [@] UserJobRefactoringRemoveWiki_0-10000 user job is scheduled to start at around 2024-03-26T07:57:56.957Z
+ 26/03/24 07:42:56,965 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.refactorings.RefactoringMoveSortByRelevanceFlagToProfile
+ 26/03/24 07:42:56,969 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.refactorings.RefactoringDefaultLanguages
+ 26/03/24 07:42:57,005 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.zendesk.persistence.refactorings.RefactoringRemoveNotActiveAgreements
+ 26/03/24 07:42:57,017 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: RefactoringSetupNewPersistenceScheme2
+ 26/03/24 07:42:57,031 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.zendesk.persistence.refactorings.RefactoringRemoveNotMigratedAgreements
+ 26/03/24 07:42:57,045 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.maintenance.backup.listeners.RefactoringSetupDefaultDatabaseBackupCron
+ 26/03/24 07:42:57,060 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.integration.refactoring.RefactoringProcessVCSEntityMentions
+ 26/03/24 07:42:57,063 INFO  [@init servlet   ] [UserJobRecursiveRefactoring   ] [@] RefactoringProcessVCSEntityMentions_0-10000 user job is scheduled to start at around 2024-03-26T08:02:57.063Z
+ 26/03/24 07:42:57,065 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.integration.refactoring.RefactoringReplaceNullsInVcsChangeDate
+ 26/03/24 07:42:57,076 INFO  [@init servlet   ] [RefactoringUtil               ] [@] Replacing null with current time for xdVcsChange 0
+ 26/03/24 07:42:57,082 INFO  [@init servlet   ] [RefactoringUtil               ] [@] Replacing null with current time for xdPullRequest 0
+ 26/03/24 07:42:57,093 INFO  [@init servlet   ] [RefactoringUtil               ] [@] Replacing null with current time for xdPullRequestChange 0
+ 26/03/24 07:42:57,103 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.integration.refactoring.RefactoringFixDatesInSeconds
+ 26/03/24 07:42:57,107 INFO  [@init servlet   ] [RefactoringUtil               ] [@] Replacing dates in seconds to dates in millis  0
+ 26/03/24 07:42:57,120 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.integration.refactoring.RefactoringCleanUpUpsourcePersistence
+ 26/03/24 07:42:57,123 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Removing all upsource changes processors. There are 0 of them
+ 26/03/24 07:42:57,154 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.article.refactorings.RefactoringFixArticleCycles
+ 26/03/24 07:42:57,168 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.article.refactorings.RefactoringCreatedUpdatedArticleDraft
+ 26/03/24 07:42:57,173 INFO  [@init servlet   ] [RefactoringUtil               ] [@] RefactoringCreatedUpdatedArticleDraft: 0 article draft processed
+ 26/03/24 07:42:57,182 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.article.refactorings.RefactoringSetArticleNumberInProject
+ 26/03/24 07:42:57,188 INFO  [@init servlet   ] [RefactoringUtil               ] [@] Set number in project for 0 articles
+ 26/03/24 07:42:57,209 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.article.refactorings.RefactoringAddCommentsCount
+ 26/03/24 07:42:57,223 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.article.refactorings.RefactoringAddAttachmentsSize
+ 26/03/24 07:42:57,234 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.article.refactorings.RefactoringFixArticleCommentProjects
+ 26/03/24 07:42:57,240 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.article.refactorings.RefactoringAddContentUpdated
+ 26/03/24 07:42:57,244 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.notifications.refactoring.RefactoringDisableInboxFolders
+ 26/03/24 07:42:57,246 INFO  [@init servlet   ] [RefactoringUtil               ] [@] Processed 0 user profile with disabled inbox
+ 26/03/24 07:42:57,249 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: RefactoringDeleteIncorrectAgileReports v1
+ 26/03/24 07:42:57,256 INFO  [@init servlet   ] [ingDeleteIncorrectAgileReports] [@] No agile reports without link to the proper sprint was found
+ 26/03/24 07:42:57,260 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.reports.refactorings.RefactoringResetCalculatingReportsStatus
+ 26/03/24 07:42:57,269 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.charisma.refactoring.RefactoringSetDefaultWorkWeekDays
+ 26/03/24 07:42:57,280 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.timetracking.refactorings.RefactoringTimezonesCompatibility3
+ 26/03/24 07:42:57,283 INFO  [@init servlet   ] [RefactoringUtil               ] [@] processed 0 user profiles
+ 26/03/24 07:42:57,287 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: Detach import project duplicates
+ 26/03/24 07:42:57,297 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Completed youtrack-only refactorings in 0 min 2 sec
+ 26/03/24 07:42:57,297 INFO  [@init servlet   ] [ApplicationStateHolderImpl    ] [@] Application state changed from REFACTORINGS_STARTED to REFACTORINGS_FINISHED
+ 26/03/24 07:42:57,628 INFO  [@init servlet   ] [security                      ] [@] field Priority[__CUSTOM_FIELD__Priority_0] created
+ 26/03/24 07:42:57,648 INFO  [@init servlet   ] [security                      ] [@] Bundle with name: Priorities created with fields [Show-stopper,Critical,Major,Normal,Minor]
+ 26/03/24 07:42:57,675 INFO  [@init servlet   ] [security                      ] [@] for field Priority Default bundle is set to Priorities.
+ 26/03/24 07:42:57,676 INFO  [@init servlet   ] [security                      ] [@] for field Priority default values are set to [Normal].
+ 26/03/24 07:42:57,676 INFO  [@init servlet   ] [security                      ] [@] for field Priority default empty field text is set to No Priority.
+ 26/03/24 07:42:57,677 INFO  [@init servlet   ] [security                      ] [@] field Type[__CUSTOM_FIELD__Type_1] created
+ 26/03/24 07:42:57,680 INFO  [@init servlet   ] [security                      ] [@] Bundle with name: Types created with fields [Bug,Cosmetics,Exception,Feature,Task,Usability Problem,Performance Problem,Epic]
+ 26/03/24 07:42:57,694 INFO  [@init servlet   ] [security                      ] [@] for field Type Default bundle is set to Types.
+ 26/03/24 07:42:57,695 INFO  [@init servlet   ] [security                      ] [@] for field Type default values are set to [Bug].
+ 26/03/24 07:42:57,695 INFO  [@init servlet   ] [security                      ] [@] for field Type default empty field text is set to No Type.
+ 26/03/24 07:42:57,696 INFO  [@init servlet   ] [security                      ] [@] field State[__CUSTOM_FIELD__State_2] created
+ 26/03/24 07:42:57,703 INFO  [@init servlet   ] [security                      ] [@] Bundle with name: States created with fields [Submitted,Open,In Progress,To be discussed,Reopened,Can't Reproduce,Duplicate,Fixed,Won't fix,Incomplete,Obsolete,Verified]
+ 26/03/24 07:42:57,719 INFO  [@init servlet   ] [security                      ] [@] for field State Default bundle is set to States.
+ 26/03/24 07:42:57,720 INFO  [@init servlet   ] [security                      ] [@] for field State default values are set to [Submitted].
+ 26/03/24 07:42:57,721 INFO  [@init servlet   ] [security                      ] [@] for field State default empty field text is set to No State.
+ 26/03/24 07:42:57,721 INFO  [@init servlet   ] [security                      ] [@] field Assignee[__CUSTOM_FIELD__Assignee_3] created
+ 26/03/24 07:42:57,723 INFO  [@init servlet   ] [security                      ] [@] for field Assignee Default bundle is set to <empty>.
+ 26/03/24 07:42:57,740 INFO  [@init servlet   ] [security                      ] [@] for field Assignee default values are set to [].
+ 26/03/24 07:42:57,741 INFO  [@init servlet   ] [security                      ] [@] for field Assignee default empty field text is set to Unassigned.
+ 26/03/24 07:42:57,742 INFO  [@init servlet   ] [security                      ] [@] field Subsystem[__CUSTOM_FIELD__Subsystem_4] created
+ 26/03/24 07:42:57,742 INFO  [@init servlet   ] [security                      ] [@] for field Subsystem Default bundle is set to <empty>.
+ 26/03/24 07:42:57,743 INFO  [@init servlet   ] [security                      ] [@] for field Subsystem default values are set to [].
+ 26/03/24 07:42:57,744 INFO  [@init servlet   ] [security                      ] [@] for field Subsystem default empty field text is set to No Subsystem.
+ 26/03/24 07:42:57,744 INFO  [@init servlet   ] [security                      ] [@] field Fix versions[__CUSTOM_FIELD__Fix versions_5] created
+ 26/03/24 07:42:57,750 INFO  [@init servlet   ] [security                      ] [@] Bundle with name: Versions created with fields []
+ 26/03/24 07:42:57,751 INFO  [@init servlet   ] [security                      ] [@] for field Fix versions Default bundle is set to Versions.
+ 26/03/24 07:42:57,752 INFO  [@init servlet   ] [security                      ] [@] for field Fix versions default values are set to [].
+ 26/03/24 07:42:57,753 INFO  [@init servlet   ] [security                      ] [@] for field Fix versions default empty field text is set to Unscheduled.
+ 26/03/24 07:42:57,753 INFO  [@init servlet   ] [security                      ] [@] field Affected versions[__CUSTOM_FIELD__Affected versions_6] created
+ 26/03/24 07:42:57,754 INFO  [@init servlet   ] [security                      ] [@] for field Affected versions Default bundle is set to Versions.
+ 26/03/24 07:42:57,754 INFO  [@init servlet   ] [security                      ] [@] for field Affected versions default values are set to [].
+ 26/03/24 07:42:57,755 INFO  [@init servlet   ] [security                      ] [@] for field Affected versions default empty field text is set to Unknown.
+ 26/03/24 07:42:57,755 INFO  [@init servlet   ] [security                      ] [@] field Fixed in build[__CUSTOM_FIELD__Fixed in build_7] created
+ 26/03/24 07:42:57,756 INFO  [@init servlet   ] [security                      ] [@] for field Fixed in build Default bundle is set to <empty>.
+ 26/03/24 07:42:57,756 INFO  [@init servlet   ] [security                      ] [@] for field Fixed in build default values are set to [].
+ 26/03/24 07:42:57,757 INFO  [@init servlet   ] [security                      ] [@] for field Fixed in build default empty field text is set to Next Build.
+ 26/03/24 07:42:57,757 INFO  [@init servlet   ] [security                      ] [@] field Due Date[__CUSTOM_FIELD__Due Date_8] created
+ 26/03/24 07:42:58,199 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-scripting-api] created
+ 26/03/24 07:42:58,201 INFO  [@init servlet   ] [KLogging                      ] [@] Script [cache] created.
+ 26/03/24 07:42:58,203 INFO  [@init servlet   ] [KLogging                      ] [@] Script [context-utils] created.
+ 26/03/24 07:42:58,204 INFO  [@init servlet   ] [KLogging                      ] [@] Script [date-time] created.
+ 26/03/24 07:42:58,204 INFO  [@init servlet   ] [KLogging                      ] [@] Script [entities] created.
+ 26/03/24 07:42:58,204 INFO  [@init servlet   ] [KLogging                      ] [@] Script [environment] created.
+ 26/03/24 07:42:58,204 INFO  [@init servlet   ] [KLogging                      ] [@] Script [http] created.
+ 26/03/24 07:42:58,204 INFO  [@init servlet   ] [KLogging                      ] [@] Script [notifications] created.
+ 26/03/24 07:42:58,205 INFO  [@init servlet   ] [KLogging                      ] [@] Script [search] created.
+ 26/03/24 07:42:58,205 INFO  [@init servlet   ] [KLogging                      ] [@] Script [strings] created.
+ 26/03/24 07:42:58,272 INFO  [@init servlet   ] [KLogging                      ] [@] Script [workflow] created.
+ 26/03/24 07:42:58,902 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-confluence-import-aux] created
+ 26/03/24 07:42:58,903 INFO  [@init servlet   ] [KLogging                      ] [@] Script [macro-handlers] created.
+ 26/03/24 07:42:58,904 INFO  [@init servlet   ] [KLogging                      ] [@] Script [stringify-handlers] created.
+ 26/03/24 07:42:58,904 INFO  [@init servlet   ] [KLogging                      ] [@] Script [table-handlers] created.
+ 26/03/24 07:42:58,904 INFO  [@init servlet   ] [KLogging                      ] [@] Script [tag-merge-processor] created.
+ 26/03/24 07:42:58,904 INFO  [@init servlet   ] [KLogging                      ] [@] Script [third-party-dependencies] created.
+ 26/03/24 07:42:58,907 INFO  [@init servlet   ] [KLogging                      ] [@] Script [to-markdown] created.
+ 26/03/24 07:42:59,226 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-atlassian-utils] created
+ 26/03/24 07:42:59,227 INFO  [@init servlet   ] [KLogging                      ] [@] Script [users-directory] created.
+ 26/03/24 07:42:59,434 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-bugzilla-client] created
+ 26/03/24 07:42:59,435 INFO  [@init servlet   ] [KLogging                      ] [@] Script [bugzilla-connection] created.
+ 26/03/24 07:42:59,435 INFO  [@init servlet   ] [KLogging                      ] [@] Script [bugzilla-fields] created.
+ 26/03/24 07:42:59,435 INFO  [@init servlet   ] [KLogging                      ] [@] Script [bugzilla-history] created.
+ 26/03/24 07:42:59,436 INFO  [@init servlet   ] [KLogging                      ] [@] Script [bugzilla-issue-converter] created.
+ 26/03/24 07:42:59,436 INFO  [@init servlet   ] [KLogging                      ] [@] Script [bugzilla-issues-client] created.
+ 26/03/24 07:42:59,436 INFO  [@init servlet   ] [KLogging                      ] [@] Script [bugzilla-utils] created.
+ 26/03/24 07:42:59,620 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-confluence-client] created
+ 26/03/24 07:42:59,620 INFO  [@init servlet   ] [KLogging                      ] [@] Script [confluence-client] created.
+ 26/03/24 07:42:59,620 INFO  [@init servlet   ] [KLogging                      ] [@] Script [connection] created.
+ 26/03/24 07:42:59,621 INFO  [@init servlet   ] [KLogging                      ] [@] Script [extractor-articles] created.
+ 26/03/24 07:42:59,621 INFO  [@init servlet   ] [KLogging                      ] [@] Script [extractor-spaces] created.
+ 26/03/24 07:42:59,621 INFO  [@init servlet   ] [KLogging                      ] [@] Script [extractor-users] created.
+ 26/03/24 07:42:59,621 INFO  [@init servlet   ] [KLogging                      ] [@] Script [page-cache] created.
+ 26/03/24 07:42:59,777 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-demo-client] created
+ 26/03/24 07:42:59,778 INFO  [@init servlet   ] [KLogging                      ] [@] Script [client] created.
+ 26/03/24 07:42:59,778 INFO  [@init servlet   ] [KLogging                      ] [@] Script [demo-article] created.
+ 26/03/24 07:42:59,778 INFO  [@init servlet   ] [KLogging                      ] [@] Script [demo-issue] created.
+ 26/03/24 07:42:59,779 INFO  [@init servlet   ] [KLogging                      ] [@] Script [demo-project] created.
+ 26/03/24 07:42:59,779 INFO  [@init servlet   ] [KLogging                      ] [@] Script [demo-user] created.
+ 26/03/24 07:42:59,935 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-github-issues-client] created
+ 26/03/24 07:42:59,936 INFO  [@init servlet   ] [KLogging                      ] [@] Script [github-content-converter] created.
+ 26/03/24 07:42:59,936 INFO  [@init servlet   ] [KLogging                      ] [@] Script [github-content-loader] created.
+ 26/03/24 07:42:59,937 INFO  [@init servlet   ] [KLogging                      ] [@] Script [github-history-converter] created.
+ 26/03/24 07:42:59,937 INFO  [@init servlet   ] [KLogging                      ] [@] Script [github-issue-converter] created.
+ 26/03/24 07:42:59,938 INFO  [@init servlet   ] [KLogging                      ] [@] Script [github-issues-client] created.
+ 26/03/24 07:42:59,940 INFO  [@init servlet   ] [KLogging                      ] [@] Script [github-utils] created.
+ 26/03/24 07:43:00,068 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-gitlab-client] created
+ 26/03/24 07:43:00,069 INFO  [@init servlet   ] [KLogging                      ] [@] Script [gitlab-client] created.
+ 26/03/24 07:43:00,070 INFO  [@init servlet   ] [KLogging                      ] [@] Script [gitlab-connection] created.
+ 26/03/24 07:43:00,070 INFO  [@init servlet   ] [KLogging                      ] [@] Script [gitlab-issue-converter] created.
+ 26/03/24 07:43:00,080 INFO  [@init servlet   ] [KLogging                      ] [@] Script [gitlab-utils] created.
+ 26/03/24 07:43:00,103 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-wiki-to-markdown-converter] created
+ 26/03/24 07:43:00,104 INFO  [@init servlet   ] [KLogging                      ] [@] Script [converter] created.
+ 26/03/24 07:43:00,277 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-jira-client] created
+ 26/03/24 07:43:00,278 INFO  [@init servlet   ] [KLogging                      ] [@] Script [client] created.
+ 26/03/24 07:43:00,279 INFO  [@init servlet   ] [KLogging                      ] [@] Script [events] created.
+ 26/03/24 07:43:00,281 INFO  [@init servlet   ] [KLogging                      ] [@] Script [fields] created.
+ 26/03/24 07:43:00,283 INFO  [@init servlet   ] [KLogging                      ] [@] Script [issue-handler] created.
+ 26/03/24 07:43:00,286 INFO  [@init servlet   ] [KLogging                      ] [@] Script [links] created.
+ 26/03/24 07:43:00,287 INFO  [@init servlet   ] [KLogging                      ] [@] Script [security] created.
+ 26/03/24 07:43:00,288 INFO  [@init servlet   ] [KLogging                      ] [@] Script [utils] created.
+ 26/03/24 07:43:00,327 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-json-client] created
+ 26/03/24 07:43:00,328 INFO  [@init servlet   ] [KLogging                      ] [@] Script [issues] created.
+ 26/03/24 07:43:00,328 INFO  [@init servlet   ] [KLogging                      ] [@] Script [json-client] created.
+ 26/03/24 07:43:00,330 INFO  [@init servlet   ] [KLogging                      ] [@] Script [projects] created.
+ 26/03/24 07:43:00,461 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-mantis-issues-client] created
+ 26/03/24 07:43:00,463 INFO  [@init servlet   ] [KLogging                      ] [@] Script [mantis-issues-client] created.
+ 26/03/24 07:43:00,464 INFO  [@init servlet   ] [KLogging                      ] [@] Script [utils] created.
+ 26/03/24 07:43:00,589 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-monday-client] created
+ 26/03/24 07:43:00,590 INFO  [@init servlet   ] [KLogging                      ] [@] Script [attach] created.
+ 26/03/24 07:43:00,590 INFO  [@init servlet   ] [KLogging                      ] [@] Script [attach_converter] created.
+ 26/03/24 07:43:00,591 INFO  [@init servlet   ] [KLogging                      ] [@] Script [client] created.
+ 26/03/24 07:43:00,592 INFO  [@init servlet   ] [KLogging                      ] [@] Script [comment] created.
+ 26/03/24 07:43:00,592 INFO  [@init servlet   ] [KLogging                      ] [@] Script [field] created.
+ 26/03/24 07:43:00,593 INFO  [@init servlet   ] [KLogging                      ] [@] Script [field_converter] created.
+ 26/03/24 07:43:00,593 INFO  [@init servlet   ] [KLogging                      ] [@] Script [field_relation] created.
+ 26/03/24 07:43:00,594 INFO  [@init servlet   ] [KLogging                      ] [@] Script [group] created.
+ 26/03/24 07:43:00,595 INFO  [@init servlet   ] [KLogging                      ] [@] Script [history] created.
+ 26/03/24 07:43:00,600 INFO  [@init servlet   ] [KLogging                      ] [@] Script [issue] created.
+ 26/03/24 07:43:00,601 INFO  [@init servlet   ] [KLogging                      ] [@] Script [project] created.
+ 26/03/24 07:43:00,602 INFO  [@init servlet   ] [KLogging                      ] [@] Script [project_field_converter] created.
+ 26/03/24 07:43:00,603 INFO  [@init servlet   ] [KLogging                      ] [@] Script [query] created.
+ 26/03/24 07:43:00,604 INFO  [@init servlet   ] [KLogging                      ] [@] Script [tag] created.
+ 26/03/24 07:43:00,604 INFO  [@init servlet   ] [KLogging                      ] [@] Script [user] created.
+ 26/03/24 07:43:00,605 INFO  [@init servlet   ] [KLogging                      ] [@] Script [util] created.
+ 26/03/24 07:43:00,606 INFO  [@init servlet   ] [KLogging                      ] [@] Script [vote] created.
+ 26/03/24 07:43:00,731 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-redmine-client] created
+ 26/03/24 07:43:00,732 INFO  [@init servlet   ] [KLogging                      ] [@] Script [connection] created.
+ 26/03/24 07:43:00,732 INFO  [@init servlet   ] [KLogging                      ] [@] Script [redmine-client] created.
+ 26/03/24 07:43:00,733 INFO  [@init servlet   ] [KLogging                      ] [@] Script [utils] created.
+ 26/03/24 07:43:00,869 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-space-client] created
+ 26/03/24 07:43:00,870 INFO  [@init servlet   ] [KLogging                      ] [@] Script [space-article-converter] created.
+ 26/03/24 07:43:00,871 INFO  [@init servlet   ] [KLogging                      ] [@] Script [space-client] created.
+ 26/03/24 07:43:00,871 INFO  [@init servlet   ] [KLogging                      ] [@] Script [space-connection] created.
+ 26/03/24 07:43:00,872 INFO  [@init servlet   ] [KLogging                      ] [@] Script [space-issue-converter] created.
+ 26/03/24 07:43:00,873 INFO  [@init servlet   ] [KLogging                      ] [@] Script [space-users] created.
+ 26/03/24 07:43:00,873 INFO  [@init servlet   ] [KLogging                      ] [@] Script [space-utils] created.
+ 26/03/24 07:43:00,949 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-spreadsheets-client] created
+ 26/03/24 07:43:00,950 INFO  [@init servlet   ] [KLogging                      ] [@] Script [attachment] created.
+ 26/03/24 07:43:00,951 INFO  [@init servlet   ] [KLogging                      ] [@] Script [client] created.
+ 26/03/24 07:43:00,951 INFO  [@init servlet   ] [KLogging                      ] [@] Script [comment] created.
+ 26/03/24 07:43:00,952 INFO  [@init servlet   ] [KLogging                      ] [@] Script [field-converter] created.
+ 26/03/24 07:43:00,952 INFO  [@init servlet   ] [KLogging                      ] [@] Script [field-recognizer] created.
+ 26/03/24 07:43:00,953 INFO  [@init servlet   ] [KLogging                      ] [@] Script [field] created.
+ 26/03/24 07:43:00,953 INFO  [@init servlet   ] [KLogging                      ] [@] Script [issue] created.
+ 26/03/24 07:43:00,954 INFO  [@init servlet   ] [KLogging                      ] [@] Script [link] created.
+ 26/03/24 07:43:00,956 INFO  [@init servlet   ] [KLogging                      ] [@] Script [old-issue] created.
+ 26/03/24 07:43:00,958 INFO  [@init servlet   ] [KLogging                      ] [@] Script [project-field-converter] created.
+ 26/03/24 07:43:00,958 INFO  [@init servlet   ] [KLogging                      ] [@] Script [project] created.
+ 26/03/24 07:43:00,959 INFO  [@init servlet   ] [KLogging                      ] [@] Script [type-conversation] created.
+ 26/03/24 07:43:00,960 INFO  [@init servlet   ] [KLogging                      ] [@] Script [user] created.
+ 26/03/24 07:43:00,961 INFO  [@init servlet   ] [KLogging                      ] [@] Script [util] created.
+ 26/03/24 07:43:01,018 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-youtrack-client] created
+ 26/03/24 07:43:01,019 INFO  [@init servlet   ] [KLogging                      ] [@] Script [youtrack-articles-history] created.
+ 26/03/24 07:43:01,019 INFO  [@init servlet   ] [KLogging                      ] [@] Script [youtrack-articles] created.
+ 26/03/24 07:43:01,020 INFO  [@init servlet   ] [KLogging                      ] [@] Script [youtrack-client] created.
+ 26/03/24 07:43:01,022 INFO  [@init servlet   ] [KLogging                      ] [@] Script [youtrack-common-objects] created.
+ 26/03/24 07:43:01,023 INFO  [@init servlet   ] [KLogging                      ] [@] Script [youtrack-issues-fields] created.
+ 26/03/24 07:43:01,024 INFO  [@init servlet   ] [KLogging                      ] [@] Script [youtrack-issues-history] created.
+ 26/03/24 07:43:01,025 INFO  [@init servlet   ] [KLogging                      ] [@] Script [youtrack-issues] created.
+ 26/03/24 07:43:01,026 INFO  [@init servlet   ] [KLogging                      ] [@] Script [youtrack-project] created.
+ 26/03/24 07:43:01,026 INFO  [@init servlet   ] [KLogging                      ] [@] Script [youtrack-uri-creator] created.
+ 26/03/24 07:43:01,027 INFO  [@init servlet   ] [KLogging                      ] [@] Script [youtrack-utils] created.
+ 26/03/24 07:43:01,155 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-zendesk-client] created
+ 26/03/24 07:43:01,156 INFO  [@init servlet   ] [KLogging                      ] [@] Script [agreement] created.
+ 26/03/24 07:43:01,157 INFO  [@init servlet   ] [KLogging                      ] [@] Script [connection] created.
+ 26/03/24 07:43:01,157 INFO  [@init servlet   ] [KLogging                      ] [@] Script [on-imported-issue-update] created.
+ 26/03/24 07:43:01,158 INFO  [@init servlet   ] [KLogging                      ] [@] Script [zendesk-client-common] created.
+ 26/03/24 07:43:01,158 INFO  [@init servlet   ] [KLogging                      ] [@] Script [zendesk-client] created.
+ 26/03/24 07:43:01,159 INFO  [@init servlet   ] [KLogging                      ] [@] Script [zendesk-integration-client] created.
+ 26/03/24 07:43:01,331 INFO  [@init servlet   ] [KLogging                      ] [@] New autoAttached script package [@jetbrains/youtrack-workflow-assignee-visibility-group] created
+ 26/03/24 07:43:01,332 INFO  [@init servlet   ] [KLogging                      ] [@] Script [assignee-not-in-group] created.
+ 26/03/24 07:43:06,240 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-workflow-auto-raise-priority] created
+ 26/03/24 07:43:06,240 INFO  [@init servlet   ] [KLogging                      ] [@] Script [from-normal-to-major-in-7-days] created.
+ 26/03/24 07:43:06,241 INFO  [@init servlet   ] [KLogging                      ] [@] Script [from-major-to-critical-in-10-days] created.
+ 26/03/24 07:43:06,241 INFO  [@init servlet   ] [KLogging                      ] [@] Script [from-critical-to-show-stopper-in-12-days] created.
+ 26/03/24 07:43:06,691 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-workflow-clear-fix-versions] created
+ 26/03/24 07:43:06,692 INFO  [@init servlet   ] [KLogging                      ] [@] Script [clear-fix-versions] created.
+ 26/03/24 07:43:06,718 INFO  [@init servlet   ] [KLogging                      ] [@] New autoAttached script package [@jetbrains/youtrack-workflow-clone-issue] created
+ 26/03/24 07:43:06,719 INFO  [@init servlet   ] [KLogging                      ] [@] Script [clone-to-draft] created.
+ 26/03/24 07:43:06,719 INFO  [@init servlet   ] [KLogging                      ] [@] Script [clone] created.
+ 26/03/24 07:43:06,960 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-workflow-comments] created
+ 26/03/24 07:43:06,961 INFO  [@init servlet   ] [KLogging                      ] [@] Script [no-comments-for-verified] created.
+ 26/03/24 07:43:06,981 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-workflow-default-description] created
+ 26/03/24 07:43:06,981 INFO  [@init servlet   ] [KLogging                      ] [@] Script [default-description] created.
+ 26/03/24 07:43:06,998 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-workflow-dependencies] created
+ 26/03/24 07:43:06,999 INFO  [@init servlet   ] [KLogging                      ] [@] Script [fix-with-unresolved-links] created.
+ 26/03/24 07:43:07,024 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-workflow-due-date] created
+ 26/03/24 07:43:07,024 INFO  [@init servlet   ] [KLogging                      ] [@] Script [notify-assignee-on-overdue] created.
+ 26/03/24 07:43:07,025 INFO  [@init servlet   ] [KLogging                      ] [@] Script [require-due-date] created.
+ 26/03/24 07:43:07,055 INFO  [@init servlet   ] [KLogging                      ] [@] New autoAttached script package [@jetbrains/youtrack-workflow-duplicates] created
+ 26/03/24 07:43:07,055 INFO  [@init servlet   ] [KLogging                      ] [@] Script [flatten-duplicates-structure] created.
+ 26/03/24 07:43:07,056 INFO  [@init servlet   ] [KLogging                      ] [@] Script [issue-in-duplicate-state-must-have-duplicates-link] created.
+ 26/03/24 07:43:07,056 INFO  [@init servlet   ] [KLogging                      ] [@] Script [raise-priority-when-duplicate-added] created.
+ 26/03/24 07:43:07,057 INFO  [@init servlet   ] [KLogging                      ] [@] Script [reopen-issue-when-last-duplicate-removed] created.
+ 26/03/24 07:43:07,057 INFO  [@init servlet   ] [KLogging                      ] [@] Script [set-to-duplicate-when-have-duplicates-link] created.
+ 26/03/24 07:43:07,083 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-workflow-forgotten-attachment] created
+ 26/03/24 07:43:07,083 INFO  [@init servlet   ] [KLogging                      ] [@] Script [attach-file-comment] created.
+ 26/03/24 07:43:07,084 INFO  [@init servlet   ] [KLogging                      ] [@] Script [attach-file-description] created.
+ 26/03/24 07:43:07,085 INFO  [@init servlet   ] [KLogging                      ] [@] Script [attach-file-utils] created.
+ 26/03/24 07:43:07,119 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-workflow-helpdesk] created
+ 26/03/24 07:43:07,119 INFO  [@init servlet   ] [KLogging                      ] [@] Script [duplicate] created.
+ 26/03/24 07:43:07,120 INFO  [@init servlet   ] [KLogging                      ] [@] Script [merge-tickets] created.
+ 26/03/24 07:43:07,120 INFO  [@init servlet   ] [KLogging                      ] [@] Script [pending-ticket-retention] created.
+ 26/03/24 07:43:07,121 INFO  [@init servlet   ] [KLogging                      ] [@] Script [reopen-on-reporter-reply] created.
+ 26/03/24 07:43:07,122 INFO  [@init servlet   ] [KLogging                      ] [@] Script [set-assignee-on-first-reply] created.
+ 26/03/24 07:43:07,122 INFO  [@init servlet   ] [KLogging                      ] [@] Script [ticket-from-comment] created.
+ 26/03/24 07:43:07,362 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-workflow-issue-properties-combinations] created
+ 26/03/24 07:43:07,363 INFO  [@init servlet   ] [KLogging                      ] [@] Script [denied-combinations] created.
+ 26/03/24 07:43:07,381 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-workflow-kanban] created
+ 26/03/24 07:43:07,382 INFO  [@init servlet   ] [KLogging                      ] [@] Script [allow-moving-ready-to-pull-only] created.
+ 26/03/24 07:43:07,382 INFO  [@init servlet   ] [KLogging                      ] [@] Script [assign-on-move] created.
+ 26/03/24 07:43:07,408 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-workflow-notify-reporter-to-approve-fix] created
+ 26/03/24 07:43:07,409 INFO  [@init servlet   ] [KLogging                      ] [@] Script [notify-reporter-to-approve-fix] created.
+ 26/03/24 07:43:07,409 INFO  [@init servlet   ] [KLogging                      ] [@] Script [state-lifecycle-with-verification-by-reporter] created.
+ 26/03/24 07:43:07,441 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-workflow-notify-when-dependency-resolved] created
+ 26/03/24 07:43:07,441 INFO  [@init servlet   ] [KLogging                      ] [@] Script [notify-when-dependency-resolved] created.
+ 26/03/24 07:43:07,456 INFO  [@init servlet   ] [KLogging                      ] [@] New autoAttached script package [@jetbrains/youtrack-workflow-one-vote-comment] created
+ 26/03/24 07:43:07,457 INFO  [@init servlet   ] [KLogging                      ] [@] Script [vote-for-issue] created.
+ 26/03/24 07:43:07,478 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-workflow-pomodoro-timer] created
+ 26/03/24 07:43:07,478 INFO  [@init servlet   ] [KLogging                      ] [@] Script [dont-change-reason-manually] created.
+ 26/03/24 07:43:07,479 INFO  [@init servlet   ] [KLogging                      ] [@] Script [pomodoro-countdown] created.
+ 26/03/24 07:43:07,479 INFO  [@init servlet   ] [KLogging                      ] [@] Script [pomodoro-states] created.
+ 26/03/24 07:43:07,501 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-workflow-profanity-blocker] created
+ 26/03/24 07:43:07,502 INFO  [@init servlet   ] [KLogging                      ] [@] Script [profanity-blocker] created.
+ 26/03/24 07:43:07,502 INFO  [@init servlet   ] [KLogging                      ] [@] Script [profanity-common] created.
+ 26/03/24 07:43:07,523 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-workflow-referred-issues] created
+ 26/03/24 07:43:07,523 INFO  [@init servlet   ] [KLogging                      ] [@] Script [add-refers-link-to-mentioned-issues] created.
+ 26/03/24 07:43:07,537 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-workflow-replace-links] created
+ 26/03/24 07:43:07,538 INFO  [@init servlet   ] [KLogging                      ] [@] Script [replace-links] created.
+ 26/03/24 07:43:07,552 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-workflow-resolved-votes] created
+ 26/03/24 07:43:07,552 INFO  [@init servlet   ] [KLogging                      ] [@] Script [no-votes-for-resolved] created.
+ 26/03/24 07:43:07,580 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-workflow-scrum] created
+ 26/03/24 07:43:07,580 INFO  [@init servlet   ] [KLogging                      ] [@] Script [assign-on-move] created.
+ 26/03/24 07:43:07,581 INFO  [@init servlet   ] [KLogging                      ] [@] Script [fix-parent-on-subtasks-resolve] created.
+ 26/03/24 07:43:07,581 INFO  [@init servlet   ] [KLogging                      ] [@] Script [no-ideal-days-for-epics] created.
+ 26/03/24 07:43:07,582 INFO  [@init servlet   ] [KLogging                      ] [@] Script [no-story-points-for-tasks] created.
+ 26/03/24 07:43:07,582 INFO  [@init servlet   ] [KLogging                      ] [@] Script [open-parent-on-subtask-open] created.
+ 26/03/24 07:43:07,607 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-workflow-scrum-2] created
+ 26/03/24 07:43:07,608 INFO  [@init servlet   ] [KLogging                      ] [@] Script [assign-on-move] created.
+ 26/03/24 07:43:07,608 INFO  [@init servlet   ] [KLogging                      ] [@] Script [fix-parent-on-subtasks-resolve] created.
+ 26/03/24 07:43:07,608 INFO  [@init servlet   ] [KLogging                      ] [@] Script [open-parent-on-subtask-open] created.
+ 26/03/24 07:43:07,627 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-workflow-set-fix-versions] created
+ 26/03/24 07:43:07,627 INFO  [@init servlet   ] [KLogging                      ] [@] Script [assert-fix-versions] created.
+ 26/03/24 07:43:07,642 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-workflow-slack-notifications-simple] created
+ 26/03/24 07:43:07,642 INFO  [@init servlet   ] [KLogging                      ] [@] Script [send-to-slack] created.
+ 26/03/24 07:43:07,660 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-workflow-spam] created
+ 26/03/24 07:43:07,661 INFO  [@init servlet   ] [KLogging                      ] [@] Script [close-spam-ticket] created.
+ 26/03/24 07:43:07,661 INFO  [@init servlet   ] [KLogging                      ] [@] Script [delete-spam-after-month] created.
+ 26/03/24 07:43:07,682 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-workflow-standalone-work-timer] created
+ 26/03/24 07:43:07,682 INFO  [@init servlet   ] [KLogging                      ] [@] Script [start-timer] created.
+ 26/03/24 07:43:07,683 INFO  [@init servlet   ] [KLogging                      ] [@] Script [stop-timer] created.
+ 26/03/24 07:43:07,701 INFO  [@init servlet   ] [KLogging                      ] [@] New autoAttached script package [@jetbrains/youtrack-workflow-subsystem-assignee] created
+ 26/03/24 07:43:07,701 INFO  [@init servlet   ] [KLogging                      ] [@] Script [set-assignee] created.
+ 26/03/24 07:43:07,718 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-workflow-subtask-inherit-assignee] created
+ 26/03/24 07:43:07,719 INFO  [@init servlet   ] [KLogging                      ] [@] Script [inherit-assignee] created.
+ 26/03/24 07:43:07,719 INFO  [@init servlet   ] [KLogging                      ] [@] Script [update-assignee] created.
+ 26/03/24 07:43:07,742 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-workflow-subtask-inherit-fix-versions] created
+ 26/03/24 07:43:07,743 INFO  [@init servlet   ] [KLogging                      ] [@] Script [copy-values] created.
+ 26/03/24 07:43:07,743 INFO  [@init servlet   ] [KLogging                      ] [@] Script [inherit-fix-versions] created.
+ 26/03/24 07:43:07,744 INFO  [@init servlet   ] [KLogging                      ] [@] Script [update-fix-versions] created.
+ 26/03/24 07:43:07,764 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-workflow-subtask-inherit-subsystem] created
+ 26/03/24 07:43:07,764 INFO  [@init servlet   ] [KLogging                      ] [@] Script [inherit-subsystem] created.
+ 26/03/24 07:43:07,765 INFO  [@init servlet   ] [KLogging                      ] [@] Script [update-subsystem] created.
+ 26/03/24 07:43:07,784 INFO  [@init servlet   ] [KLogging                      ] [@] New autoAttached script package [@jetbrains/youtrack-workflow-subtasks] created
+ 26/03/24 07:43:07,784 INFO  [@init servlet   ] [KLogging                      ] [@] Script [fix-parent-on-subtasks-resolve] created.
+ 26/03/24 07:43:07,785 INFO  [@init servlet   ] [KLogging                      ] [@] Script [open-parent-on-subtask-open] created.
+ 26/03/24 07:43:07,803 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-workflow-task-assignee] created
+ 26/03/24 07:43:07,803 INFO  [@init servlet   ] [KLogging                      ] [@] Script [task-assignee] created.
+ 26/03/24 07:43:07,821 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-workflow-time-management] created
+ 26/03/24 07:43:07,821 INFO  [@init servlet   ] [KLogging                      ] [@] Script [time-management] created.
+ 26/03/24 07:43:07,835 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-workflow-untag-on-reopen] created
+ 26/03/24 07:43:07,836 INFO  [@init servlet   ] [KLogging                      ] [@] Script [untag-on-reopen] created.
+ 26/03/24 07:43:07,857 INFO  [@init servlet   ] [KLogging                      ] [@] New autoAttached script package [@jetbrains/youtrack-workflow-update-fix-build] created
+ 26/03/24 07:43:07,857 INFO  [@init servlet   ] [KLogging                      ] [@] Script [clear-on-unresolve] created.
+ 26/03/24 07:43:07,858 INFO  [@init servlet   ] [KLogging                      ] [@] Script [copy-from-duplicated-issue] created.
+ 26/03/24 07:43:07,858 INFO  [@init servlet   ] [KLogging                      ] [@] Script [set-to-duplicate] created.
+ 26/03/24 07:43:07,872 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-workflow-watcher-by-votes] created
+ 26/03/24 07:43:07,873 INFO  [@init servlet   ] [KLogging                      ] [@] Script [add-project-leader] created.
+ 26/03/24 07:43:08,012 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-workflow-wont-fix-build] created
+ 26/03/24 07:43:08,013 INFO  [@init servlet   ] [KLogging                      ] [@] Script [set-build-to-never] created.
+ 26/03/24 07:43:08,030 INFO  [@init servlet   ] [KLogging                      ] [@] New script package [@jetbrains/youtrack-workflow-work-timer] created
+ 26/03/24 07:43:08,030 INFO  [@init servlet   ] [KLogging                      ] [@] Script [start-timer] created.
+ 26/03/24 07:43:08,031 INFO  [@init servlet   ] [KLogging                      ] [@] Script [stop-timer] created.
+ 26/03/24 07:43:08,055 INFO  [@init servlet   ] [DnqUtils                      ] [@] Init indexes for unique properties and composite keys
+ 26/03/24 07:43:08,129 INFO  [@init servlet   ] [YouTrackWarmUp                ] [@] EntityIterableCache warm-up started
+ 26/03/24 07:43:08,268 INFO  [@init servlet   ] [YouTrackWarmUp                ] [@] EntityIterableCache warm-up took 139 ms.
+ 26/03/24 07:43:08,269 INFO  [@init servlet   ] [ApplicationStateHolderImpl    ] [@] Application state changed from REFACTORINGS_FINISHED to UNIQUE_INDEXES_INITIALIZED
+ 26/03/24 07:43:08,292 INFO  [@init servlet   ] [ApplicationStateHolderImpl    ] [@] Application state changed from UNIQUE_INDEXES_INITIALIZED to BACKUP_AND_TEXT_INDEX_INITIALIZED
+ 26/03/24 07:43:09,201 INFO  [@init servlet   ] [PrefixTrees                   ] [@] Finish creating keyword index in [257 ms]
+ 26/03/24 07:43:09,203 INFO  [@init servlet   ] [ApplicationStateHolderImpl    ] [@] Application state changed from BACKUP_AND_TEXT_INDEX_INITIALIZED to PREFIX_TREES_INITIALIZED
+ 26/03/24 07:43:09,280 INFO  [@init servlet   ] [security                      ] [@] issue link prototype Relates[0]:relates to<-> created
+ 26/03/24 07:43:09,285 INFO  [@init servlet   ] [security                      ] [@] issue link prototype Depend[1]:is required for->depends on created
+ 26/03/24 07:43:09,296 INFO  [@init servlet   ] [security                      ] [@] issue link prototype Duplicate[2]:is duplicated by<>->duplicates created
+ 26/03/24 07:43:09,301 INFO  [@init servlet   ] [security                      ] [@] issue link prototype Subtask[3]:parent for<>->subtask of created
+ 26/03/24 07:43:09,301 INFO  [@init servlet   ] [ApplicationStateHolderImpl    ] [@] Application state changed from PREFIX_TREES_INITIALIZED to HUB_INTEGRATION_STARTING
+ 26/03/24 07:43:19,677 WARN  [@init servlet   ] [LoggingRequestsFilter         ] [@] POST http://127.0.0.1:8080/hub/api/rest/usergroups 409 Conflict
+ 26/03/24 07:43:19,953 WARN  [@init servlet   ] [LoggingRequestsFilter         ] [@] POST http://127.0.0.1:8080/hub/api/rest/users 409 Conflict
+ 26/03/24 07:43:20,340 WARN  [@init servlet   ] [LoggingRequestsFilter         ] [@] POST http://127.0.0.1:8080/hub/api/rest/users 409 Conflict
+ 26/03/24 07:43:21,492 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Starting Hub context aware refactorings...
+ 26/03/24 07:43:21,495 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.ring.refactoring.RefactoringBundlesWithRegisteredUsers
+ 26/03/24 07:43:21,574 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.ring.refactoring.RefactoringDropUpsourcePerProjectWidgets
+ 26/03/24 07:43:21,576 INFO  [@init servlet   ] [UserJobRecursiveRefactoring   ] [@] RefactoringDropUpsourcePerProjectWidgets_0-10000 user job is scheduled to start at around 2024-03-26T07:44:21.576Z
+ 26/03/24 07:43:21,578 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.ring.refactoring.RefactoringRemapProjects
+ 26/03/24 07:43:21,597 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.ring.refactoring.RefactoringSyncEmailIsVerified
+ 26/03/24 07:43:21,600 INFO  [@init servlet   ] [UserJobRecursiveRefactoring   ] [@] RefactoringSyncEmailIsVerified_0-10000 user job is scheduled to start at around 2024-03-26T07:48:21.600Z
+ 26/03/24 07:43:21,601 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.ring.refactoring.RefactoringRenameReporterToIssueCreator2
+ 26/03/24 07:43:21,606 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.ring.refactoring.RefactoringMergeReportersWithSameEmails
+ 26/03/24 07:43:21,644 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.search.refactoring.RefactoringComputeTotalIssueAttachmentSize
+ 26/03/24 07:43:21,655 INFO  [@init servlet   ] [XdRefactoring                 ] [@] jetbrains.youtrack.search.refactoring.RefactoringComputeTotalIssueAttachmentSize: 0 attachments processed
+ 26/03/24 07:43:21,657 INFO  [@init servlet   ] [RefactoringUtil               ] [@] 0 issues processed
+ 26/03/24 07:43:21,675 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.search.refactoring.RefactoringAddExtraSpaces
+ 26/03/24 07:43:21,697 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.search.refactoring.RefactoringFixFieldsWithParenthesis
+ 26/03/24 07:43:21,703 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.search.refactoring.RefactoringRenameLinksInChezh
+ 26/03/24 07:43:21,711 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.search.refactoring.RefactoringRenameSubtaskOfInRussian
+ 26/03/24 07:43:21,714 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.search.refactoring.RefactoringAddExtraSpacesToRanges
+ 26/03/24 07:43:21,725 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.search.refactoring.RefactoringRenameStoryPointInSpanish
+ 26/03/24 07:43:21,728 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Apply refactoring: jetbrains.youtrack.search.refactoring.RefactoringComputeIssueLastCommented
+ 26/03/24 07:43:21,731 INFO  [@init servlet   ] [RefactoringUtil               ] [@] 0 issues processed
+ 26/03/24 07:43:21,736 INFO  [@init servlet   ] [XdRefactoring                 ] [@] Completed Hub context aware refactorings in 0 min 0 sec
+ 26/03/24 07:43:21,737 INFO  [@init servlet   ] [ApplicationStateHolderImpl    ] [@] Application state changed from HUB_INTEGRATION_STARTING to HUB_INTEGRATION_STARTED
+ 26/03/24 07:43:21,798 INFO  [@init servlet   ] [stemPropertyLocaleConfigurator] [@] Applying locale from system property: ru-RU
+ 26/03/24 07:43:21,806 INFO  [@init servlet   ] [LocalizationService           ] [system_user@l2Q1@] Starting translation form en_US to ru_RU
+ 26/03/24 07:43:21,826 INFO  [@init servlet   ] [ReportsTranslator             ] [system_user@l2Q1@] Translate report queries
+ 26/03/24 07:43:21,830 INFO  [@init servlet   ] [ReportsTranslator             ] [system_user@l2Q1@] Translate report axises
+ 26/03/24 07:43:22,149 INFO  [@init servlet   ] [ptyCustomFieldValuesTranslator] [system_user@l2Q1@] Translating empty value for suppliedField Affected versions from 'Unknown' to 'Неизвестно'
+ 26/03/24 07:43:22,150 INFO  [@init servlet   ] [ptyCustomFieldValuesTranslator] [system_user@l2Q1@] Translating project custom fields for supplied field Affected versions...
+ 26/03/24 07:43:22,150 INFO  [@init servlet   ] [ptyCustomFieldValuesTranslator] [system_user@l2Q1@] Successfully processed 0 PCF of Affected versions
+ 26/03/24 07:43:22,151 INFO  [@init servlet   ] [ptyCustomFieldValuesTranslator] [system_user@l2Q1@] Translating empty value for suppliedField Assignee from 'Unassigned' to 'Нет исполнителя'
+ 26/03/24 07:43:22,151 INFO  [@init servlet   ] [ptyCustomFieldValuesTranslator] [system_user@l2Q1@] Translating project custom fields for supplied field Assignee...
+ 26/03/24 07:43:22,151 INFO  [@init servlet   ] [ptyCustomFieldValuesTranslator] [system_user@l2Q1@] Successfully processed 0 PCF of Assignee
+ 26/03/24 07:43:22,152 INFO  [@init servlet   ] [ptyCustomFieldValuesTranslator] [system_user@l2Q1@] Translating empty value for suppliedField Fixed in build from 'Next Build' to 'Следующая сборка'
+ 26/03/24 07:43:22,152 INFO  [@init servlet   ] [ptyCustomFieldValuesTranslator] [system_user@l2Q1@] Translating project custom fields for supplied field Fixed in build...
+ 26/03/24 07:43:22,152 INFO  [@init servlet   ] [ptyCustomFieldValuesTranslator] [system_user@l2Q1@] Successfully processed 0 PCF of Fixed in build
+ 26/03/24 07:43:22,153 INFO  [@init servlet   ] [ptyCustomFieldValuesTranslator] [system_user@l2Q1@] Translating empty value for suppliedField Due Date from 'No date' to 'Нет даты'
+ 26/03/24 07:43:22,153 INFO  [@init servlet   ] [ptyCustomFieldValuesTranslator] [system_user@l2Q1@] Translating project custom fields for supplied field Due Date...
+ 26/03/24 07:43:22,153 INFO  [@init servlet   ] [ptyCustomFieldValuesTranslator] [system_user@l2Q1@] Successfully processed 0 PCF of Due Date
+ 26/03/24 07:43:22,153 INFO  [@init servlet   ] [ptyCustomFieldValuesTranslator] [system_user@l2Q1@] Translating empty value for suppliedField Fix versions from 'Unscheduled' to 'Нет версии исправления'
+ 26/03/24 07:43:22,154 INFO  [@init servlet   ] [ptyCustomFieldValuesTranslator] [system_user@l2Q1@] Translating project custom fields for supplied field Fix versions...
+ 26/03/24 07:43:22,154 INFO  [@init servlet   ] [ptyCustomFieldValuesTranslator] [system_user@l2Q1@] Successfully processed 0 PCF of Fix versions
+ 26/03/24 07:43:22,154 INFO  [@init servlet   ] [ptyCustomFieldValuesTranslator] [system_user@l2Q1@] Translating empty value for suppliedField Priority from 'No Priority' to 'Нет приоритета'
+ 26/03/24 07:43:22,154 INFO  [@init servlet   ] [ptyCustomFieldValuesTranslator] [system_user@l2Q1@] Translating project custom fields for supplied field Priority...
+ 26/03/24 07:43:22,154 INFO  [@init servlet   ] [ptyCustomFieldValuesTranslator] [system_user@l2Q1@] Successfully processed 0 PCF of Priority
+ 26/03/24 07:43:22,155 INFO  [@init servlet   ] [ptyCustomFieldValuesTranslator] [system_user@l2Q1@] Translating empty value for suppliedField State from 'No State' to 'Нет состояния'
+ 26/03/24 07:43:22,155 INFO  [@init servlet   ] [ptyCustomFieldValuesTranslator] [system_user@l2Q1@] Translating project custom fields for supplied field State...
+ 26/03/24 07:43:22,155 INFO  [@init servlet   ] [ptyCustomFieldValuesTranslator] [system_user@l2Q1@] Successfully processed 0 PCF of State
+ 26/03/24 07:43:22,156 INFO  [@init servlet   ] [ptyCustomFieldValuesTranslator] [system_user@l2Q1@] Translating empty value for suppliedField Subsystem from 'No Subsystem' to 'Нет подсистемы'
+ 26/03/24 07:43:22,156 INFO  [@init servlet   ] [ptyCustomFieldValuesTranslator] [system_user@l2Q1@] Translating project custom fields for supplied field Subsystem...
+ 26/03/24 07:43:22,156 INFO  [@init servlet   ] [ptyCustomFieldValuesTranslator] [system_user@l2Q1@] Successfully processed 0 PCF of Subsystem
+ 26/03/24 07:43:22,156 INFO  [@init servlet   ] [ptyCustomFieldValuesTranslator] [system_user@l2Q1@] Translating empty value for suppliedField Type from 'No Type' to 'Нет типа'
+ 26/03/24 07:43:22,157 INFO  [@init servlet   ] [ptyCustomFieldValuesTranslator] [system_user@l2Q1@] Translating project custom fields for supplied field Type...
+ 26/03/24 07:43:22,166 INFO  [@init servlet   ] [ptyCustomFieldValuesTranslator] [system_user@l2Q1@] Successfully processed 0 PCF of Type
+ 26/03/24 07:43:24,068 INFO  [@init servlet   ] [security                      ] [system_user@l2Q1@] Назначенные на меня[XdSavedQuery wrapper for SavedQuery: id = 8-0] for user search_user_605213625[92-0] updated
+ 26/03/24 07:43:24,070 INFO  [@init servlet   ] [security                      ] [system_user@l2Q1@] Прокомментированные мной[XdSavedQuery wrapper for SavedQuery: id = 8-1] for user search_user_605213625[92-0] updated
+ 26/03/24 07:43:24,072 INFO  [@init servlet   ] [security                      ] [system_user@l2Q1@] Созданные мной[XdSavedQuery wrapper for SavedQuery: id = 8-2] for user search_user_605213625[92-0] updated
+ 26/03/24 07:43:24,073 INFO  [@init servlet   ] [security                      ] [system_user@l2Q1@] Все задачи[XdSavedQuery wrapper for SavedQuery: id = 8-3] for user search_user_605213625[92-0] updated
+ 26/03/24 07:43:24,075 INFO  [@init servlet   ] [security                      ] [system_user@l2Q1@] Все запросы[XdSavedQuery wrapper for SavedQuery: id = 8-4] for user search_user_605213625[92-0] updated
+ 26/03/24 07:43:24,084 INFO  [@init servlet   ] [security                      ] [system_user@l2Q1@] issue link prototype Relates[0]:relates to<-> changed to Relates[0]:relates to<->
+ 26/03/24 07:43:24,089 INFO  [@init servlet   ] [security                      ] [system_user@l2Q1@] issue link prototype Depend[1]:is required for->depends on changed to Depend[1]:is required for->depends on
+ 26/03/24 07:43:24,096 INFO  [@init servlet   ] [security                      ] [system_user@l2Q1@] issue link prototype Duplicate[2]:is duplicated by<>->duplicates changed to Duplicate[2]:is duplicated by<>->duplicates
+ 26/03/24 07:43:24,105 INFO  [@init servlet   ] [security                      ] [system_user@l2Q1@] issue link prototype Subtask[3]:parent for<>->subtask of changed to Subtask[3]:parent for<>->subtask of
+ 26/03/24 07:43:24,273 INFO  [@init servlet   ] [security                      ] [system_user@l2Q1@] Bundle name Types changed to Типы
+ 26/03/24 07:43:24,273 INFO  [@init servlet   ] [security                      ] [system_user@l2Q1@] Bundle name Priorities changed to Приоритеты
+ 26/03/24 07:43:24,274 INFO  [@init servlet   ] [security                      ] [system_user@l2Q1@] Bundle name States changed to Состояния
+ 26/03/24 07:43:24,274 INFO  [@init servlet   ] [security                      ] [system_user@l2Q1@] Bundle name Versions changed to Версии
+ 26/03/24 07:43:24,277 INFO  [@init servlet   ] [security                      ] [system_user@l2Q1@] for field Affected versions default empty field text is set to Неизвестно.
+ 26/03/24 07:43:24,285 INFO  [@init servlet   ] [security                      ] [system_user@l2Q1@] for field Assignee default empty field text is set to Нет исполнителя.
+ 26/03/24 07:43:24,288 INFO  [@init servlet   ] [security                      ] [system_user@l2Q1@] for field Fixed in build default empty field text is set to Следующая сборка.
+ 26/03/24 07:43:24,288 INFO  [@init servlet   ] [security                      ] [system_user@l2Q1@] for field Fix versions default empty field text is set to Нет версии исправления.
+ 26/03/24 07:43:24,289 INFO  [@init servlet   ] [security                      ] [system_user@l2Q1@] for field Priority default empty field text is set to Нет приоритета.
+ 26/03/24 07:43:24,291 INFO  [@init servlet   ] [security                      ] [system_user@l2Q1@] for field State default empty field text is set to Нет состояния.
+ 26/03/24 07:43:24,292 INFO  [@init servlet   ] [security                      ] [system_user@l2Q1@] for field Subsystem default empty field text is set to Нет подсистемы.
+ 26/03/24 07:43:24,293 INFO  [@init servlet   ] [security                      ] [system_user@l2Q1@] for field Type default empty field text is set to Нет типа.
+ 26/03/24 07:43:27,528 INFO  [@init servlet   ] [LocalizationService           ] [system_user@l2Q1@] Finished translation form en_US to ru_RU
+ 26/03/24 07:43:27,825 INFO  [@init servlet   ] [ApplicationStateHolderImpl    ] [@] Application state changed from HUB_INTEGRATION_STARTED to APP_LIFECYCLE_FIRST_START
+ 26/03/24 07:43:27,826 INFO  [@init servlet   ] [ApplicationStateHolderImpl    ] [@] Application state changed from APP_LIFECYCLE_FIRST_START to APP_LIFECYCLE_START
+ 26/03/24 07:43:27,869 INFO  [@init servlet   ] [security                      ] [@] Backup path changed to: /opt/youtrack/backups
+ 26/03/24 07:43:32,705 INFO  [@init servlet   ] [stemPropertyLocaleConfigurator] [@] Applying locale from system property: ru-RU
+ 26/03/24 07:43:32,809 INFO  [@init servlet   ] [ApplicationStateHolderImpl    ] [@] Application state changed from APP_LIFECYCLE_START to RUNNING
+ 26/03/24 07:43:32,850 INFO  [@init servlet   ] [security                      ] [root@] User group Демопроект Team created
+ 26/03/24 07:43:33,263 WARN  [@init servlet   ] [XdSprint                      ] [root@] Aligning start time, Демопроект Доска:Первый спринт start time: 1711439013241 is not exact date start in UTC
+ 26/03/24 07:43:33,264 INFO  [@init servlet   ] [XdSprint                      ] [root@] Aligning finish time, Демопроект Доска:Первый спринт finish time: 1712043813241 is not exact date finish in UTC
+ 26/03/24 07:43:35,821 INFO  [@init servlet   ] [security                      ] [root@] bundle Приоритеты set to field Priority[__CUSTOM_FIELD__Priority_0] in project Демопроект with default value(s) [Normal]
+ 26/03/24 07:43:35,831 INFO  [@init servlet   ] [security                      ] [root@] public field Priority[__CUSTOM_FIELD__Priority_0] added to project Демопроект with null value text: Нет приоритета
+ 26/03/24 07:43:35,840 INFO  [@init servlet   ] [security                      ] [root@] bundle Типы set to field Type[__CUSTOM_FIELD__Type_1] in project Демопроект with default value(s) [Bug]
+ 26/03/24 07:43:35,841 INFO  [@init servlet   ] [security                      ] [root@] public field Type[__CUSTOM_FIELD__Type_1] added to project Демопроект with null value text: Нет типа
+ 26/03/24 07:43:35,845 INFO  [@init servlet   ] [security                      ] [root@] bundle Состояния set to field State[__CUSTOM_FIELD__State_2] in project Демопроект with default value(s) [Submitted]
+ 26/03/24 07:43:35,845 INFO  [@init servlet   ] [security                      ] [root@] public field State[__CUSTOM_FIELD__State_2] added to project Демопроект with null value text: Нет состояния
+ 26/03/24 07:43:35,851 INFO  [@init servlet   ] [security                      ] [root@] bundle Демопроект: Исполнитель set to field Assignee[__CUSTOM_FIELD__Assignee_3] in project Демопроект with default value(s) []
+ 26/03/24 07:43:35,856 INFO  [@init servlet   ] [security                      ] [root@] public field Assignee[__CUSTOM_FIELD__Assignee_3] added to project Демопроект with null value text: Нет исполнителя
+ 26/03/24 07:43:35,859 INFO  [@init servlet   ] [security                      ] [root@] User bundle with name: Демопроект: Исполнитель created with individual users  and groups 
+ 26/03/24 07:43:35,860 INFO  [@init servlet   ] [security                      ] [root@] bundle Демопроект: Подсистема set to field Subsystem[__CUSTOM_FIELD__Subsystem_4] in project Демопроект with default value(s) []
+ 26/03/24 07:43:35,862 INFO  [@init servlet   ] [security                      ] [root@] public field Subsystem[__CUSTOM_FIELD__Subsystem_4] added to project Демопроект with null value text: Нет подсистемы
+ 26/03/24 07:43:35,865 INFO  [@init servlet   ] [security                      ] [root@] Bundle with name: Демопроект: Подсистема created with fields [Отслеживание задач,Эффективное управление проектами,Миграция]
+ 26/03/24 07:43:35,866 INFO  [@init servlet   ] [security                      ] [root@] bundle Демопроект: Версии set to field Fix versions[__CUSTOM_FIELD__Fix versions_5] in project Демопроект with default value(s) []
+ 26/03/24 07:43:35,867 INFO  [@init servlet   ] [security                      ] [root@] public field Fix versions[__CUSTOM_FIELD__Fix versions_5] added to project Демопроект with null value text: Нет версии исправления
+ 26/03/24 07:43:35,869 INFO  [@init servlet   ] [security                      ] [root@] Bundle with name: Демопроект: Версии created with fields []
+ 26/03/24 07:43:35,870 INFO  [@init servlet   ] [security                      ] [root@] bundle Демопроект: Версии set to field Affected versions[__CUSTOM_FIELD__Affected versions_6] in project Демопроект with default value(s) []
+ 26/03/24 07:43:35,871 INFO  [@init servlet   ] [security                      ] [root@] public field Affected versions[__CUSTOM_FIELD__Affected versions_6] added to project Демопроект with null value text: Неизвестно
+ 26/03/24 07:43:35,873 INFO  [@init servlet   ] [security                      ] [root@] bundle Демопроект: Исправлено в сборке set to field Fixed in build[__CUSTOM_FIELD__Fixed in build_7] in project Демопроект with default value(s) []
+ 26/03/24 07:43:35,874 INFO  [@init servlet   ] [security                      ] [root@] public field Fixed in build[__CUSTOM_FIELD__Fixed in build_7] added to project Демопроект with null value text: Следующая сборка
+ 26/03/24 07:43:35,877 INFO  [@init servlet   ] [security                      ] [root@] Bundle with name: Демопроект: Исправлено в сборке created with fields []
+ 26/03/24 07:43:35,882 INFO  [@init servlet   ] [security                      ] [root@] Script [@jetbrains/youtrack-workflow-assignee-visibility-group/assignee-not-in-group] attached to project: Демопроект
+ 26/03/24 07:43:35,882 INFO  [@init servlet   ] [security                      ] [root@] Script [@jetbrains/youtrack-workflow-clone-issue/clone-to-draft] attached to project: Демопроект
+ 26/03/24 07:43:35,883 INFO  [@init servlet   ] [security                      ] [root@] Script [@jetbrains/youtrack-workflow-clone-issue/clone] attached to project: Демопроект
+ 26/03/24 07:43:35,883 INFO  [@init servlet   ] [security                      ] [root@] Script [@jetbrains/youtrack-workflow-duplicates/flatten-duplicates-structure] attached to project: Демопроект
+ 26/03/24 07:43:35,884 INFO  [@init servlet   ] [security                      ] [root@] Script [@jetbrains/youtrack-workflow-duplicates/issue-in-duplicate-state-must-have-duplicates-link] attached to project: Демопроект
+ 26/03/24 07:43:35,888 INFO  [@init servlet   ] [security                      ] [root@] Script [@jetbrains/youtrack-workflow-duplicates/raise-priority-when-duplicate-added] attached to project: Демопроект
+ 26/03/24 07:43:35,888 INFO  [@init servlet   ] [security                      ] [root@] Script [@jetbrains/youtrack-workflow-duplicates/reopen-issue-when-last-duplicate-removed] attached to project: Демопроект
+ 26/03/24 07:43:35,889 INFO  [@init servlet   ] [security                      ] [root@] Script [@jetbrains/youtrack-workflow-duplicates/set-to-duplicate-when-have-duplicates-link] attached to project: Демопроект
+ 26/03/24 07:43:35,889 INFO  [@init servlet   ] [security                      ] [root@] Script [@jetbrains/youtrack-workflow-one-vote-comment/vote-for-issue] attached to project: Демопроект
+ 26/03/24 07:43:35,890 INFO  [@init servlet   ] [security                      ] [root@] Script [@jetbrains/youtrack-workflow-subsystem-assignee/set-assignee] attached to project: Демопроект
+ 26/03/24 07:43:35,891 INFO  [@init servlet   ] [security                      ] [root@] Script [@jetbrains/youtrack-workflow-subtasks/fix-parent-on-subtasks-resolve] attached to project: Демопроект
+ 26/03/24 07:43:35,891 INFO  [@init servlet   ] [security                      ] [root@] Script [@jetbrains/youtrack-workflow-subtasks/open-parent-on-subtask-open] attached to project: Демопроект
+ 26/03/24 07:43:35,892 INFO  [@init servlet   ] [security                      ] [root@] Script [@jetbrains/youtrack-workflow-update-fix-build/clear-on-unresolve] attached to project: Демопроект
+ 26/03/24 07:43:35,892 INFO  [@init servlet   ] [security                      ] [root@] Script [@jetbrains/youtrack-workflow-update-fix-build/copy-from-duplicated-issue] attached to project: Демопроект
+ 26/03/24 07:43:35,893 INFO  [@init servlet   ] [security                      ] [root@] Script [@jetbrains/youtrack-workflow-update-fix-build/set-to-duplicate] attached to project: Демопроект
+ 26/03/24 07:43:35,903 INFO  [@init servlet   ] [security                      ] [root@] field Оценка[__CUSTOM_FIELD__Оценка_9] created
+ 26/03/24 07:43:39,278 INFO  [@init servlet   ] [security                      ] [root@] public field Оценка[__CUSTOM_FIELD__Оценка_9] added to project Демопроект with null value text: ?
+ 26/03/24 07:43:39,288 INFO  [@init servlet   ] [security                      ] [root@] field Затраченное время[__CUSTOM_FIELD__Затраченное время_10] created
+ 26/03/24 07:43:39,289 INFO  [@init servlet   ] [security                      ] [root@] public field Затраченное время[__CUSTOM_FIELD__Затраченное время_10] added to project Демопроект with null value text: ?
+ 26/03/24 07:43:39,321 INFO  [@init servlet   ] [security                      ] [root@] Add sprint Первый спринт to the board Демопроект Доска (158-0)
+ 26/03/24 07:43:41,219 INFO  [@init servlet   ] [security                      ] [root@] Bundle Демопроект: Исполнитель groups changed. New value: [Демопроект Team]
+ 26/03/24 07:43:41,484 INFO  [@init servlet   ] [security                      ] [root@] Add sprint Первый спринт to the board Обзор Демопроект (158-1)
+ 26/03/24 07:43:41,494 INFO  [@t-user-action-3] [RefactoringUtil               ] [custom_fields_user_1902678051@] 19 issues processed
+ 26/03/24 07:43:41,494 INFO  [@t-user-action-2] [RefactoringUtil               ] [custom_fields_user_1902678051@] 19 issues processed
+ 26/03/24 07:43:41,498 INFO  [@t-user-action-1] [RefactoringUtil               ] [custom_fields_user_1902678051@] 19 issues processed
+ 26/03/24 07:43:42,021 INFO  [@reports-1      ] [ReportsCalculationExecutor    ] [@] Calculation of [179-0:TimeReport:Демопроект — отчет по времени] took 466 ms. Report available at http://proxmox.ppkslavyanova.ru:8080/reports/time/179-0
+ 26/03/24 07:43:42,387 INFO  [@init servlet   ] [YouTrackInit                  ] [@] YouTrack init complete
+ 26/03/24 07:43:42,392 INFO  [@user-action-1  ] [RefactoringUtil               ] [root@] processed 19 issues
+ 26/03/24 07:43:42,762 INFO  [@reports-1      ] [ReportsCalculationExecutor    ] [@] Calculation of [181-0:TimeSheetReport:Демопроект — таблица учета времени] took 85 ms. Report available at http://proxmox.ppkslavyanova.ru:8080/reports/timeSheet/181-0
+ 26/03/24 07:44:00,523 INFO  [@tp300548333-172] [security                      ] [root@10.0.31.243] project Remove project Демопроект scheduled for deletion
+ 26/03/24 07:44:01,423 INFO  [@t-user-action-3] [RefactoringUtil               ] [root@10.0.31.243] 19 issues deleted in project Демопроект (удаление)
+ 26/03/24 07:44:01,426 INFO  [@t-user-action-3] [RefactoringUtil               ] [root@10.0.31.243] 0 issue keys deleted in project Демопроект (удаление)
+ 26/03/24 07:44:01,567 INFO  [@t-user-action-3] [security                      ] [root@10.0.31.243] Remove agile board [Демопроект Доска (158-0)]
+ 26/03/24 07:44:01,569 INFO  [@t-user-action-3] [security                      ] [root@10.0.31.243] Board Демопроект Доска was removed
+ 26/03/24 07:44:01,571 INFO  [@t-user-action-3] [security                      ] [root@10.0.31.243] Remove sprint Первый спринт to the board Демопроект Доска (158-0)
+ 26/03/24 07:44:01,575 INFO  [@t-user-action-3] [security                      ] [root@10.0.31.243] Remove agile board [Обзор Демопроект (158-1)]
+ 26/03/24 07:44:01,576 INFO  [@t-user-action-3] [security                      ] [root@10.0.31.243] Board Обзор Демопроект was removed
+ 26/03/24 07:44:01,580 INFO  [@t-user-action-3] [security                      ] [root@10.0.31.243] Remove sprint Первый спринт to the board Обзор Демопроект (158-1)
+ 26/03/24 07:44:01,592 INFO  [@t-user-action-3] [RefactoringUtil               ] [root@10.0.31.243] 0 articles deleted in project Демопроект (удаление)
+ 26/03/24 07:44:01,596 INFO  [@t-user-action-3] [RefactoringUtil               ] [root@10.0.31.243] 0 article drafts deleted in project Демопроект (удаление)
+ 26/03/24 07:44:01,888 INFO  [@t-user-action-3] [security                      ] [root@10.0.31.243] project Демопроект (удаление) deleted
+ 26/03/24 07:44:02,463 INFO  [@t-user-action-3] [security                      ] [root@10.0.31.243] User group Демопроект Team deleted
+ 26/03/24 07:44:02,518 INFO  [@t-user-action-3] [security                      ] [root@10.0.31.243] public field Priority[__CUSTOM_FIELD__Priority_0] removed from project Демопроект (удаление)
+ 26/03/24 07:44:02,536 INFO  [@t-user-action-3] [security                      ] [root@10.0.31.243] public field Type[__CUSTOM_FIELD__Type_1] removed from project Демопроект (удаление)
+ 26/03/24 07:44:02,539 INFO  [@t-user-action-3] [security                      ] [root@10.0.31.243] public field State[__CUSTOM_FIELD__State_2] removed from project Демопроект (удаление)
+ 26/03/24 07:44:02,543 INFO  [@t-user-action-3] [security                      ] [root@10.0.31.243] public field Subsystem[__CUSTOM_FIELD__Subsystem_4] removed from project Демопроект (удаление)
+ 26/03/24 07:44:02,556 INFO  [@t-user-action-3] [security                      ] [root@10.0.31.243] public field Fix versions[__CUSTOM_FIELD__Fix versions_5] removed from project Демопроект (удаление)
+ 26/03/24 07:44:02,564 INFO  [@t-user-action-3] [security                      ] [root@10.0.31.243] public field Affected versions[__CUSTOM_FIELD__Affected versions_6] removed from project Демопроект (удаление)
+ 26/03/24 07:44:02,567 INFO  [@t-user-action-3] [security                      ] [root@10.0.31.243] public field Fixed in build[__CUSTOM_FIELD__Fixed in build_7] removed from project Демопроект (удаление)
+ 26/03/24 07:44:02,586 INFO  [@t-user-action-3] [security                      ] [root@10.0.31.243] public field Assignee[__CUSTOM_FIELD__Assignee_3] removed from project Демопроект (удаление)
+ 26/03/24 07:44:02,593 INFO  [@t-user-action-3] [security                      ] [root@10.0.31.243] public field Оценка[__CUSTOM_FIELD__Оценка_9] removed from project Демопроект (удаление)
+ 26/03/24 07:44:02,605 INFO  [@t-user-action-3] [security                      ] [root@10.0.31.243] public field Затраченное время[__CUSTOM_FIELD__Затраченное время_10] removed from project Демопроект (удаление)
+ 26/03/24 07:44:02,611 INFO  [@t-user-action-3] [security                      ] [root@10.0.31.243] Script [@jetbrains/youtrack-workflow-assignee-visibility-group/assignee-not-in-group] detached from project Демопроект (удаление)
+ 26/03/24 07:44:02,612 INFO  [@t-user-action-3] [security                      ] [root@10.0.31.243] Script [@jetbrains/youtrack-workflow-clone-issue/clone-to-draft] detached from project Демопроект (удаление)
+ 26/03/24 07:44:02,612 INFO  [@t-user-action-3] [security                      ] [root@10.0.31.243] Script [@jetbrains/youtrack-workflow-clone-issue/clone] detached from project Демопроект (удаление)
+ 26/03/24 07:44:02,613 INFO  [@t-user-action-3] [security                      ] [root@10.0.31.243] Script [@jetbrains/youtrack-workflow-duplicates/flatten-duplicates-structure] detached from project Демопроект (удаление)
+ 26/03/24 07:44:02,614 INFO  [@t-user-action-3] [security                      ] [root@10.0.31.243] Script [@jetbrains/youtrack-workflow-duplicates/issue-in-duplicate-state-must-have-duplicates-link] detached from project Демопроект (удаление)
+ 26/03/24 07:44:02,614 INFO  [@t-user-action-3] [security                      ] [root@10.0.31.243] Script [@jetbrains/youtrack-workflow-duplicates/raise-priority-when-duplicate-added] detached from project Демопроект (удаление)
+ 26/03/24 07:44:02,615 INFO  [@t-user-action-3] [security                      ] [root@10.0.31.243] Script [@jetbrains/youtrack-workflow-duplicates/reopen-issue-when-last-duplicate-removed] detached from project Демопроект (удаление)
+ 26/03/24 07:44:02,632 INFO  [@t-user-action-3] [security                      ] [root@10.0.31.243] Script [@jetbrains/youtrack-workflow-duplicates/set-to-duplicate-when-have-duplicates-link] detached from project Демопроект (удаление)
+ 26/03/24 07:44:02,633 INFO  [@t-user-action-3] [security                      ] [root@10.0.31.243] Script [@jetbrains/youtrack-workflow-one-vote-comment/vote-for-issue] detached from project Демопроект (удаление)
+ 26/03/24 07:44:02,633 INFO  [@t-user-action-3] [security                      ] [root@10.0.31.243] Script [@jetbrains/youtrack-workflow-subsystem-assignee/set-assignee] detached from project Демопроект (удаление)
+ 26/03/24 07:44:02,634 INFO  [@t-user-action-3] [security                      ] [root@10.0.31.243] Script [@jetbrains/youtrack-workflow-subtasks/fix-parent-on-subtasks-resolve] detached from project Демопроект (удаление)
+ 26/03/24 07:44:02,635 INFO  [@t-user-action-3] [security                      ] [root@10.0.31.243] Script [@jetbrains/youtrack-workflow-subtasks/open-parent-on-subtask-open] detached from project Демопроект (удаление)
+ 26/03/24 07:44:02,635 INFO  [@t-user-action-3] [security                      ] [root@10.0.31.243] Script [@jetbrains/youtrack-workflow-update-fix-build/clear-on-unresolve] detached from project Демопроект (удаление)
+ 26/03/24 07:44:02,636 INFO  [@t-user-action-3] [security                      ] [root@10.0.31.243] Script [@jetbrains/youtrack-workflow-update-fix-build/copy-from-duplicated-issue] detached from project Демопроект (удаление)
+ 26/03/24 07:44:02,637 INFO  [@t-user-action-3] [security                      ] [root@10.0.31.243] Script [@jetbrains/youtrack-workflow-update-fix-build/set-to-duplicate] detached from project Демопроект (удаление)
+ 26/03/24 07:44:02,744 INFO  [@t-user-action-3] [security                      ] [root@10.0.31.243] Bundle with name: Демопроект: Исполнитель removed
+ 26/03/24 07:44:02,746 INFO  [@t-user-action-3] [security                      ] [root@10.0.31.243] Bundle with name: Демопроект: Подсистема removed
+ 26/03/24 07:44:02,749 INFO  [@t-user-action-3] [security                      ] [root@10.0.31.243] Bundle with name: Демопроект: Версии removed
+ 26/03/24 07:44:02,749 INFO  [@t-user-action-3] [security                      ] [root@10.0.31.243] Bundle with name: Демопроект: Исправлено в сборке removed
+ 26/03/24 07:44:21,737 INFO  [@user-action-1  ] [UserJobRecursiveRefactoring   ] [@] RefactoringDropUpsourcePerProjectWidgets has been finished
+ 26/03/24 07:44:47,229 INFO  [@tp300548333-172] [security                      ] [root@10.0.31.243] User group Вычислительный центр Team created
+ 26/03/24 07:44:47,276 WARN  [@tp300548333-172] [TeamToAssigneeListener        ] [root@10.0.31.243] Project team Вычислительный центр Team won't be added to assignees: no suitable field found
+ 26/03/24 07:44:47,803 INFO  [@tp300548333-172] [security                      ] [root@10.0.31.243] bundle Вычислительный центрStatedf8871a6-6b99-497c-9d2d-d148dd28e878 set to field State[__CUSTOM_FIELD__State_2] in project Вычислительный центр with default value(s) [Open]
+ 26/03/24 07:44:47,805 INFO  [@tp300548333-172] [security                      ] [root@10.0.31.243] public field State[__CUSTOM_FIELD__State_2] added to project Вычислительный центр with null value text: Нет: состояние
+ 26/03/24 07:44:47,814 INFO  [@tp300548333-172] [security                      ] [root@10.0.31.243] Bundle with name: Вычислительный центрStatedf8871a6-6b99-497c-9d2d-d148dd28e878 created with fields [Open,In Progress,To Verify,Done,Duplicate]
+ 26/03/24 07:44:47,941 INFO  [@tp300548333-172] [security                      ] [root@10.0.31.243] field Sprints[__CUSTOM_FIELD__Sprints_11] created
+ 26/03/24 07:44:47,947 INFO  [@tp300548333-172] [security                      ] [root@10.0.31.243] for field Sprints Default bundle is set to <empty>.
+ 26/03/24 07:44:47,948 INFO  [@tp300548333-172] [security                      ] [root@10.0.31.243] for field Sprints default values are set to [].
+ 26/03/24 07:44:47,948 INFO  [@tp300548333-172] [security                      ] [root@10.0.31.243] for field Sprints default empty field text is set to Нет версии исправления.
+ 26/03/24 07:44:47,949 INFO  [@tp300548333-172] [security                      ] [root@10.0.31.243] bundle Вычислительный центр: Sprints set to field Sprints[__CUSTOM_FIELD__Sprints_11] in project Вычислительный центр with default value(s) []
+ 26/03/24 07:44:47,952 INFO  [@tp300548333-172] [security                      ] [root@10.0.31.243] public field Sprints[__CUSTOM_FIELD__Sprints_11] added to project Вычислительный центр with null value text: Нет версии исправления
+ 26/03/24 07:44:47,954 INFO  [@tp300548333-172] [security                      ] [root@10.0.31.243] Bundle with name: Вычислительный центр: Sprints created with fields []
+ 26/03/24 07:44:48,362 INFO  [@tp300548333-172] [security                      ] [root@10.0.31.243] bundle Вычислительный центрTypeab40c8e4-9141-4c07-8d28-c433162293d3 set to field Type[__CUSTOM_FIELD__Type_1] in project Вычислительный центр with default value(s) [Task]
+ 26/03/24 07:44:48,363 INFO  [@tp300548333-172] [security                      ] [root@10.0.31.243] public field Type[__CUSTOM_FIELD__Type_1] added to project Вычислительный центр with null value text: Нет: тип
+ 26/03/24 07:44:48,369 INFO  [@t-user-action-2] [RefactoringUtil               ] [custom_fields_user_1902678051@10.0.31.243] 0 issues processed
+ 26/03/24 07:44:48,915 INFO  [@tp300548333-172] [security                      ] [root@10.0.31.243] Bundle with name: Вычислительный центрTypeab40c8e4-9141-4c07-8d28-c433162293d3 created with fields [Bug,Epic,User Story,Task]
+ 26/03/24 07:44:48,946 INFO  [@tp300548333-172] [security                      ] [root@10.0.31.243] field Ideal days[__CUSTOM_FIELD__Ideal days_12] created
+ 26/03/24 07:44:48,947 INFO  [@tp300548333-172] [security                      ] [root@10.0.31.243] public field Ideal days[__CUSTOM_FIELD__Ideal days_12] added to project Вычислительный центр with null value text: Не оценено
+ 26/03/24 07:44:48,950 INFO  [@tp300548333-172] [security                      ] [root@10.0.31.243] field Original estimation[__CUSTOM_FIELD__Original estimation_13] created
+ 26/03/24 07:44:48,951 INFO  [@tp300548333-172] [security                      ] [root@10.0.31.243] public field Original estimation[__CUSTOM_FIELD__Original estimation_13] added to project Вычислительный центр with null value text: Не оценено
+ 26/03/24 07:44:48,952 INFO  [@tp300548333-172] [security                      ] [root@10.0.31.243] bundle Приоритеты set to field Priority[__CUSTOM_FIELD__Priority_0] in project Вычислительный центр with default value(s) [Normal]
+ 26/03/24 07:44:48,952 INFO  [@tp300548333-172] [security                      ] [root@10.0.31.243] public field Priority[__CUSTOM_FIELD__Priority_0] added to project Вычислительный центр with null value text: Нет приоритета
+ 26/03/24 07:44:48,973 INFO  [@tp300548333-172] [security                      ] [root@10.0.31.243] field Story points[__CUSTOM_FIELD__Story points_14] created
+ 26/03/24 07:44:48,974 INFO  [@tp300548333-172] [security                      ] [root@10.0.31.243] public field Story points[__CUSTOM_FIELD__Story points_14] added to project Вычислительный центр with null value text: Не оценено
+ 26/03/24 07:44:48,984 INFO  [@tp300548333-172] [security                      ] [root@10.0.31.243] bundle Вычислительный центр: Исполнитель set to field Assignee[__CUSTOM_FIELD__Assignee_3] in project Вычислительный центр with default value(s) []
+ 26/03/24 07:44:48,985 INFO  [@tp300548333-172] [security                      ] [root@10.0.31.243] public field Assignee[__CUSTOM_FIELD__Assignee_3] added to project Вычислительный центр with null value text: Нет исполнителя
+ 26/03/24 07:44:48,987 INFO  [@tp300548333-172] [security                      ] [root@10.0.31.243] User bundle with name: Вычислительный центр: Исполнитель created with individual users  and groups 
+ 26/03/24 07:44:48,990 INFO  [@tp300548333-172] [security                      ] [root@10.0.31.243] Script [@jetbrains/youtrack-workflow-clone-issue/clone-to-draft] attached to project: Вычислительный центр
+ 26/03/24 07:44:48,990 INFO  [@tp300548333-172] [security                      ] [root@10.0.31.243] Script [@jetbrains/youtrack-workflow-clone-issue/clone] attached to project: Вычислительный центр
+ 26/03/24 07:44:48,991 INFO  [@tp300548333-172] [security                      ] [root@10.0.31.243] Script [@jetbrains/youtrack-workflow-one-vote-comment/vote-for-issue] attached to project: Вычислительный центр
+ 26/03/24 07:44:48,991 INFO  [@tp300548333-172] [security                      ] [root@10.0.31.243] Script [@jetbrains/youtrack-workflow-assignee-visibility-group/assignee-not-in-group] attached to project: Вычислительный центр
+ 26/03/24 07:44:48,991 INFO  [@tp300548333-172] [security                      ] [root@10.0.31.243] Script [@jetbrains/youtrack-workflow-scrum-2/assign-on-move] attached to project: Вычислительный центр
+ 26/03/24 07:44:48,992 INFO  [@tp300548333-172] [security                      ] [root@10.0.31.243] Script [@jetbrains/youtrack-workflow-scrum-2/fix-parent-on-subtasks-resolve] attached to project: Вычислительный центр
+ 26/03/24 07:44:48,992 INFO  [@tp300548333-172] [security                      ] [root@10.0.31.243] Script [@jetbrains/youtrack-workflow-scrum-2/open-parent-on-subtask-open] attached to project: Вычислительный центр
+ 26/03/24 07:44:48,992 INFO  [@tp300548333-172] [security                      ] [root@10.0.31.243] Script [@jetbrains/youtrack-workflow-duplicates/flatten-duplicates-structure] attached to project: Вычислительный центр
+ 26/03/24 07:44:48,993 INFO  [@tp300548333-172] [security                      ] [root@10.0.31.243] Script [@jetbrains/youtrack-workflow-duplicates/issue-in-duplicate-state-must-have-duplicates-link] attached to project: Вычислительный центр
+ 26/03/24 07:44:48,993 INFO  [@tp300548333-172] [security                      ] [root@10.0.31.243] Script [@jetbrains/youtrack-workflow-duplicates/raise-priority-when-duplicate-added] attached to project: Вычислительный центр
+ 26/03/24 07:44:48,994 INFO  [@tp300548333-172] [security                      ] [root@10.0.31.243] Script [@jetbrains/youtrack-workflow-duplicates/reopen-issue-when-last-duplicate-removed] attached to project: Вычислительный центр
+ 26/03/24 07:44:48,994 INFO  [@tp300548333-172] [security                      ] [root@10.0.31.243] Script [@jetbrains/youtrack-workflow-duplicates/set-to-duplicate-when-have-duplicates-link] attached to project: Вычислительный центр
+ 26/03/24 07:44:49,046 INFO  [@tp300548333-172] [security                      ] [root@10.0.31.243] Add sprint Нет версии исправления to the board Разработка проекта Вычислительный центр (158-2)
+ 26/03/24 07:44:49,049 INFO  [@t-user-action-3] [RefactoringUtil               ] [custom_fields_user_1902678051@10.0.31.243] 0 issues processed
+ 26/03/24 07:44:49,054 INFO  [@t-user-action-1] [RefactoringUtil               ] [custom_fields_user_1902678051@10.0.31.243] 0 issues processed
+ 26/03/24 07:44:49,065 INFO  [@tp300548333-172] [security                      ] [root@10.0.31.243] Add sprint Нет версии исправления to the board Управление проектом Вычислительный центр (158-3)
+ 26/03/24 07:47:56,763 INFO  [@user-action-2  ] [eTicketRelatedUsersForHelpdesk] [@] De-normalizing ticket related users 0 -> 5000
+ 26/03/24 07:47:56,768 INFO  [@user-action-2  ] [UserJobRecursiveRefactoring   ] [@] CalculateTicketRelatedUsersForHelpdesk has been finished
+ 26/03/24 07:48:21,621 INFO  [@user-action-2  ] [UserJobRecursiveRefactoring   ] [@] RefactoringSyncEmailIsVerified_4-10000 user job is scheduled to start at around 2024-03-26T07:49:21.621Z
+ 26/03/24 07:49:21,635 INFO  [@user-action-3  ] [UserJobRecursiveRefactoring   ] [@] RefactoringSyncEmailIsVerified has been finished
+ 26/03/24 07:55:06,563 INFO  [@qtp300548333-48] [security                      ] [root@10.0.31.243] User group Тикет-система Team created
+ 26/03/24 07:55:06,832 INFO  [@qtp300548333-48] [RetryExec                     ] [root@10.0.31.243] I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:8080: Broken pipe
+ 26/03/24 07:55:06,832 INFO  [@qtp300548333-48] [RetryExec                     ] [root@10.0.31.243] Retrying request to {}->http://127.0.0.1:8080
+ 26/03/24 07:55:07,015 INFO  [@qtp300548333-48] [security                      ] [root@10.0.31.243] bundle Тикет-система: Исполнитель set to field Assignee[__CUSTOM_FIELD__Assignee_3] in project Тикет-система with default value(s) []
+ 26/03/24 07:55:07,018 INFO  [@qtp300548333-48] [security                      ] [root@10.0.31.243] public field Assignee[__CUSTOM_FIELD__Assignee_3] added to project Тикет-система with null value text: Нет исполнителя
+ 26/03/24 07:55:07,021 INFO  [@qtp300548333-48] [security                      ] [root@10.0.31.243] User bundle with name: Тикет-система: Исполнитель created with individual users  and groups 
+ 26/03/24 07:55:07,022 INFO  [@qtp300548333-48] [security                      ] [root@10.0.31.243] bundle Тикет-система priorities set to field Priority[__CUSTOM_FIELD__Priority_0] in project Тикет-система with default value(s) [Normal]
+ 26/03/24 07:55:07,024 INFO  [@qtp300548333-48] [security                      ] [root@10.0.31.243] public field Priority[__CUSTOM_FIELD__Priority_0] added to project Тикет-система with null value text: Нет приоритета
+ 26/03/24 07:55:07,034 INFO  [@qtp300548333-48] [security                      ] [root@10.0.31.243] Bundle with name: Тикет-система priorities created with fields [Urgent,High,Normal,Low]
+ 26/03/24 07:55:07,045 INFO  [@qtp300548333-48] [security                      ] [root@10.0.31.243] bundle Тикет-система types set to field Type[__CUSTOM_FIELD__Type_1] in project Тикет-система with default value(s) [Question]
+ 26/03/24 07:55:07,046 INFO  [@qtp300548333-48] [security                      ] [root@10.0.31.243] public field Type[__CUSTOM_FIELD__Type_1] added to project Тикет-система with null value text: Нет типа
+ 26/03/24 07:55:07,053 INFO  [@qtp300548333-48] [security                      ] [root@10.0.31.243] Bundle with name: Тикет-система types created with fields [Question,Incident,Problem,Task]
+ 26/03/24 07:55:07,064 INFO  [@qtp300548333-48] [security                      ] [root@10.0.31.243] bundle Тикет-система states set to field State[__CUSTOM_FIELD__State_2] in project Тикет-система with default value(s) [New]
+ 26/03/24 07:55:07,075 INFO  [@qtp300548333-48] [security                      ] [root@10.0.31.243] public field State[__CUSTOM_FIELD__State_2] added to project Тикет-система with null value text: Нет состояния
+ 26/03/24 07:55:07,082 INFO  [@qtp300548333-48] [security                      ] [root@10.0.31.243] Bundle with name: Тикет-система states created with fields [New,Open,Pending,On hold,Solved,Duplicate]
+ 26/03/24 07:55:07,098 INFO  [@qtp300548333-48] [security                      ] [root@10.0.31.243] Script [@jetbrains/youtrack-workflow-duplicates/flatten-duplicates-structure] attached to project: Тикет-система
+ 26/03/24 07:55:07,099 INFO  [@qtp300548333-48] [security                      ] [root@10.0.31.243] Script [@jetbrains/youtrack-workflow-duplicates/issue-in-duplicate-state-must-have-duplicates-link] attached to project: Тикет-система
+ 26/03/24 07:55:07,099 INFO  [@qtp300548333-48] [security                      ] [root@10.0.31.243] Script [@jetbrains/youtrack-workflow-duplicates/raise-priority-when-duplicate-added] attached to project: Тикет-система
+ 26/03/24 07:55:07,099 INFO  [@qtp300548333-48] [security                      ] [root@10.0.31.243] Script [@jetbrains/youtrack-workflow-duplicates/reopen-issue-when-last-duplicate-removed] attached to project: Тикет-система
+ 26/03/24 07:55:07,100 INFO  [@qtp300548333-48] [security                      ] [root@10.0.31.243] Script [@jetbrains/youtrack-workflow-duplicates/set-to-duplicate-when-have-duplicates-link] attached to project: Тикет-система
+ 26/03/24 07:55:07,100 INFO  [@qtp300548333-48] [security                      ] [root@10.0.31.243] Script [@jetbrains/youtrack-workflow-helpdesk/duplicate] attached to project: Тикет-система
+ 26/03/24 07:55:07,101 INFO  [@qtp300548333-48] [security                      ] [root@10.0.31.243] Script [@jetbrains/youtrack-workflow-helpdesk/merge-tickets] attached to project: Тикет-система
+ 26/03/24 07:55:07,101 INFO  [@qtp300548333-48] [security                      ] [root@10.0.31.243] Script [@jetbrains/youtrack-workflow-helpdesk/pending-ticket-retention] attached to project: Тикет-система
+ 26/03/24 07:55:07,101 INFO  [@qtp300548333-48] [security                      ] [root@10.0.31.243] Script [@jetbrains/youtrack-workflow-helpdesk/reopen-on-reporter-reply] attached to project: Тикет-система
+ 26/03/24 07:55:07,102 INFO  [@qtp300548333-48] [security                      ] [root@10.0.31.243] Script [@jetbrains/youtrack-workflow-helpdesk/set-assignee-on-first-reply] attached to project: Тикет-система
+ 26/03/24 07:55:07,102 INFO  [@qtp300548333-48] [security                      ] [root@10.0.31.243] Script [@jetbrains/youtrack-workflow-helpdesk/ticket-from-comment] attached to project: Тикет-система
+ 26/03/24 07:55:07,103 INFO  [@qtp300548333-48] [security                      ] [root@10.0.31.243] Script [@jetbrains/youtrack-workflow-spam/close-spam-ticket] attached to project: Тикет-система
+ 26/03/24 07:55:07,103 INFO  [@qtp300548333-48] [security                      ] [root@10.0.31.243] Script [@jetbrains/youtrack-workflow-spam/delete-spam-after-month] attached to project: Тикет-система
+ 26/03/24 07:55:07,960 INFO  [@qtp300548333-48] [security                      ] [root@10.0.31.243] Bundle Тикет-система: Исполнитель groups changed. New value: [Тикет-система Team]
+ 26/03/24 07:55:08,118 INFO  [@t-user-action-5] [RefactoringUtil               ] [custom_fields_user_1902678051@10.0.31.243] 0 issues processed
+ 26/03/24 07:55:08,121 INFO  [@t-user-action-6] [RefactoringUtil               ] [custom_fields_user_1902678051@10.0.31.243] 0 issues processed
+ 26/03/24 07:55:08,135 INFO  [@t-user-action-4] [RefactoringUtil               ] [custom_fields_user_1902678051@10.0.31.243] 0 issues processed
+ 26/03/24 07:57:56,978 INFO  [@user-action-5  ] [UserJobRecursiveRefactoring   ] [@] UserJobRefactoringRemoveWiki has been finished
+ 26/03/24 07:59:10,083 INFO  [@tp300548333-219] [security                      ] [root@10.0.31.243] Default timezone has been changed from null to Etc/UTC
+ 26/03/24 07:59:10,087 INFO  [@tp300548333-219] [security                      ] [root@10.0.31.243] Change System-wide banner text from "" to "Сейчас мы сосём писос и ничего не понимаем"
+ 26/03/24 07:59:10,089 INFO  [@tp300548333-219] [security                      ] [root@10.0.31.243] Enable System-wide banner with text "Сейчас мы сосём писос и ничего не понимаем"
+ 26/03/24 08:01:56,932 INFO  [@tp300548333-209] [security                      ] [root@10.0.31.243] Change System-wide banner text from "Сейчас мы сосём писос и ничего не понимаем" to "— Можно задать тебе вопрос? Как ты узнал, что там стоит тачка, и будет на что упасть? — Я и не знал. В такие вещи надо просто верить."
+ 26/03/24 08:02:57,072 INFO  [@user-action-6  ] [UserJobRecursiveRefactoring   ] [@] RefactoringProcessVCSEntityMentions has been finished
+ 26/03/24 08:12:55,905 INFO  [@user-action-7  ] [UserJobRecursiveRefactoring   ] [@] UserJobRefactoringUpdateThumbnailsAndProcessRemovedAttachments has been finished
+ 26/03/24 08:27:55,975 INFO  [@user-action-8  ] [UserJobRecursiveRefactoring   ] [@] UserJobRefactoringAddProjectToEvents has been finished
+ 26/03/24 08:30:37,108 INFO  [@qtp300548333-40] [security                      ] [root@10.0.31.243] Bundle Вычислительный центр: Sprints values changed. Added: [Адская неделя]. Removed: 0 items.
+ 26/03/24 08:30:37,117 INFO  [@qtp300548333-40] [security                      ] [root@10.0.31.243] Add sprint Адская неделя to the board Разработка проекта Вычислительный центр (158-2)
+ 26/03/24 08:30:37,120 INFO  [@qtp300548333-40] [security                      ] [root@10.0.31.243] Add sprint Адская неделя to the board Управление проектом Вычислительный центр (158-3)
+ 26/03/24 08:34:11,255 WARN  [@Thread-22      ] [EventConsumerImpl             ] [@] Exception inside of async event listener (local)
+ javax.ws.rs.ClientErrorException: HTTP 401 Unauthorized
+	at jetbrains.youtrack.core.security.BeansKt.getLoggedInUser(Beans.kt:13)
+	at jetbrains.youtrack.search.antlr.AntlrParser$parse$1.invoke(AntlrParser.kt:29)
+	at jetbrains.youtrack.search.antlr.AntlrParser$parse$1.invoke(AntlrParser.kt:26)
+	at jetbrains.youtrack.search.keyword.PrefixTrees.read(PrefixTrees.kt:58)
+	at jetbrains.youtrack.search.antlr.AntlrParser.parse(AntlrParser.kt:26)
+	at jetbrains.youtrack.search.parser.issue.IssueSearchParserImpl.parse(IssueSearchParserImpl.kt:23)
+	at jetbrains.youtrack.search.parser.issue.IssueSearchParserImpl.parse(IssueSearchParserImpl.kt:18)
+	at jetbrains.youtrack.api.parser.Parser$DefaultImpls.parse$default(Parser.kt:11)
+	at jetbrains.youtrack.search.executor.MatchesIssueSearchRequestExecutor.filterContextIssueFolder(MatchesIssueSearchRequestExecutor.kt:18)
+	at jetbrains.youtrack.search.executor.MatchesIssueSearchRequestExecutor.filterContextIssueFolder(MatchesIssueSearchRequestExecutor.kt:12)
+	at jetbrains.youtrack.search.antlr.SearchParserExecutorListener.filter(SearchParserExecutorListener.kt:66)
+	at jetbrains.youtrack.search.parser.issue.IssuesParseResultImpl.matchesDocument(IssuesParseResultImpl.kt:84)
+	at jetbrains.youtrack.search.parser.issue.IssuesParseResultImpl.matchesDocument(IssuesParseResultImpl.kt:33)
+	at jetbrains.youtrack.agile.sprint.logic.ImplicitSprintMatcher.matchesSprintAndParseResult(ImplicitSprintMatcher.kt:23)
+	at jetbrains.youtrack.agile.sprint.logic.AbstractIssueSprintMatcher.matches(AbstractIssueSprintMatcher.kt:28)
+	at jetbrains.youtrack.agile.sprint.liveupdate.SprintSubscription$DefaultImpls.issueMatchesSearch(SprintSubscription.kt:15)
+	at jetbrains.youtrack.agile.sprint.liveupdate.SprintSubscriptionImpl.issueMatchesSearch(SprintSubscriptionImpl.kt:7)
+	at jetbrains.youtrack.agile.sprint.liveupdate.SprintEventListener.doCreateChunk(SprintEventListener.kt:119)
+	at jetbrains.youtrack.agile.sprint.liveupdate.SprintEventListener.writeIssueMsg(SprintEventListener.kt:98)
+	at jetbrains.youtrack.agile.sprint.liveupdate.SprintListenerContainer.handleMessage(SprintListenerContainer.kt:222)
+	at jetbrains.youtrack.agile.sprint.liveupdate.SprintListenerContainer.processPayload(SprintListenerContainer.kt:108)
+	at jetbrains.youtrack.event.persistent.EventConsumerListener$onEvent$1$4.invoke(EventConsumerListener.kt:36)
+	at jetbrains.youtrack.event.persistent.EventConsumerListener$onEvent$1$4.invoke(EventConsumerListener.kt:34)
+	at jetbrains.youtrack.api.webr.LocalScopeKt$transactionalInScope$1.invoke(LocalScope.kt:13)
+	at jetbrains.youtrack.api.webr.LocalScopeKt$transactionalInScope$1.invoke(LocalScope.kt:12)
+	at com.jetbrains.teamsys.dnq.database.TransientEntityStoreExt.transactional(TransientEntityStoreExt.kt:51)
+	at com.jetbrains.teamsys.dnq.database.TransientEntityStoreImpl.transactional(TransientEntityStoreImpl.kt:102)
+	at jetbrains.exodus.database.TransientEntityStore$DefaultImpls.transactional$default(TransientEntityStore.kt:83)
+	at jetbrains.youtrack.core.TransactionsKt.transactional(Transactions.kt:24)
+	at jetbrains.youtrack.core.TransactionsKt.transactional$default(Transactions.kt:19)
+	at jetbrains.youtrack.api.webr.LocalScopeKt.transactionalInScope(LocalScope.kt:12)
+	at jetbrains.charisma.persistent.GapContextKt.gapTransactionalInScope(GapContext.kt:122)
+	at jetbrains.youtrack.event.persistent.EventConsumerListener$DefaultImpls.onEvent(EventConsumerListener.kt:34)
+	at jetbrains.youtrack.agile.sprint.liveupdate.SprintListenerContainer.onEvent(SprintListenerContainer.kt:46)
+	at jetbrains.youtrack.event.persistent.EventConsumerImpl$State.onEvent(EventConsumerImpl.kt:100)
+	at jetbrains.youtrack.event.persistent.EventConsumerImpl$State.onEvent(EventConsumerImpl.kt:96)
+	at com.lmax.disruptor.BatchEventProcessor.processEvents(BatchEventProcessor.java:169)
+	at com.lmax.disruptor.BatchEventProcessor.run(BatchEventProcessor.java:126)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+26/03/24 09:12:18,872 WARN  [@Thread-22      ] [EventConsumerImpl             ] [@] Exception inside of async event listener (local)
+ javax.ws.rs.ClientErrorException: HTTP 401 Unauthorized
+	at jetbrains.youtrack.core.security.BeansKt.getLoggedInUser(Beans.kt:13)
+	at jetbrains.youtrack.search.antlr.AntlrParser$parse$1.invoke(AntlrParser.kt:29)
+	at jetbrains.youtrack.search.antlr.AntlrParser$parse$1.invoke(AntlrParser.kt:26)
+	at jetbrains.youtrack.search.keyword.PrefixTrees.read(PrefixTrees.kt:58)
+	at jetbrains.youtrack.search.antlr.AntlrParser.parse(AntlrParser.kt:26)
+	at jetbrains.youtrack.search.parser.issue.IssueSearchParserImpl.parse(IssueSearchParserImpl.kt:23)
+	at jetbrains.youtrack.search.parser.issue.IssueSearchParserImpl.parse(IssueSearchParserImpl.kt:18)
+	at jetbrains.youtrack.api.parser.Parser$DefaultImpls.parse$default(Parser.kt:11)
+	at jetbrains.youtrack.search.executor.MatchesIssueSearchRequestExecutor.filterContextIssueFolder(MatchesIssueSearchRequestExecutor.kt:18)
+	at jetbrains.youtrack.search.executor.MatchesIssueSearchRequestExecutor.filterContextIssueFolder(MatchesIssueSearchRequestExecutor.kt:12)
+	at jetbrains.youtrack.search.antlr.SearchParserExecutorListener.filter(SearchParserExecutorListener.kt:66)
+	at jetbrains.youtrack.search.parser.issue.IssuesParseResultImpl.matchesDocument(IssuesParseResultImpl.kt:84)
+	at jetbrains.youtrack.search.parser.issue.IssuesParseResultImpl.matchesDocument(IssuesParseResultImpl.kt:33)
+	at jetbrains.youtrack.agile.sprint.logic.ImplicitSprintMatcher.matchesSprintAndParseResult(ImplicitSprintMatcher.kt:23)
+	at jetbrains.youtrack.agile.sprint.logic.AbstractIssueSprintMatcher.matches(AbstractIssueSprintMatcher.kt:28)
+	at jetbrains.youtrack.agile.sprint.liveupdate.SprintSubscription$DefaultImpls.issueMatchesSearch(SprintSubscription.kt:15)
+	at jetbrains.youtrack.agile.sprint.liveupdate.SprintSubscriptionImpl.issueMatchesSearch(SprintSubscriptionImpl.kt:7)
+	at jetbrains.youtrack.agile.sprint.liveupdate.SprintEventListener.doCreateChunk(SprintEventListener.kt:119)
+	at jetbrains.youtrack.agile.sprint.liveupdate.SprintEventListener.writeIssueMsg(SprintEventListener.kt:98)
+	at jetbrains.youtrack.agile.sprint.liveupdate.SprintListenerContainer.handleMessage(SprintListenerContainer.kt:222)
+	at jetbrains.youtrack.agile.sprint.liveupdate.SprintListenerContainer.processPayload(SprintListenerContainer.kt:108)
+	at jetbrains.youtrack.event.persistent.EventConsumerListener$onEvent$1$4.invoke(EventConsumerListener.kt:36)
+	at jetbrains.youtrack.event.persistent.EventConsumerListener$onEvent$1$4.invoke(EventConsumerListener.kt:34)
+	at jetbrains.youtrack.api.webr.LocalScopeKt$transactionalInScope$1.invoke(LocalScope.kt:13)
+	at jetbrains.youtrack.api.webr.LocalScopeKt$transactionalInScope$1.invoke(LocalScope.kt:12)
+	at com.jetbrains.teamsys.dnq.database.TransientEntityStoreExt.transactional(TransientEntityStoreExt.kt:51)
+	at com.jetbrains.teamsys.dnq.database.TransientEntityStoreImpl.transactional(TransientEntityStoreImpl.kt:102)
+	at jetbrains.exodus.database.TransientEntityStore$DefaultImpls.transactional$default(TransientEntityStore.kt:83)
+	at jetbrains.youtrack.core.TransactionsKt.transactional(Transactions.kt:24)
+	at jetbrains.youtrack.core.TransactionsKt.transactional$default(Transactions.kt:19)
+	at jetbrains.youtrack.api.webr.LocalScopeKt.transactionalInScope(LocalScope.kt:12)
+	at jetbrains.charisma.persistent.GapContextKt.gapTransactionalInScope(GapContext.kt:122)
+	at jetbrains.youtrack.event.persistent.EventConsumerListener$DefaultImpls.onEvent(EventConsumerListener.kt:34)
+	at jetbrains.youtrack.agile.sprint.liveupdate.SprintListenerContainer.onEvent(SprintListenerContainer.kt:46)
+	at jetbrains.youtrack.event.persistent.EventConsumerImpl$State.onEvent(EventConsumerImpl.kt:100)
+	at jetbrains.youtrack.event.persistent.EventConsumerImpl$State.onEvent(EventConsumerImpl.kt:96)
+	at com.lmax.disruptor.BatchEventProcessor.processEvents(BatchEventProcessor.java:169)
+	at com.lmax.disruptor.BatchEventProcessor.run(BatchEventProcessor.java:126)
+	at java.base/java.lang.Thread.run(Thread.java:1583)

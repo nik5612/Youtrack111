@@ -1,0 +1,3 @@
+26 Mar 2024 07:43:53,507 | INFO  | LoginHandlerImpl | 10.0.31.243 |  | User root [1ec3e0b3-58d5-481e-bab9-14b521b204c7] was logged in via Hub auth module with [username: root, serviceId: 861ff3c5-d1c1-4060-97b7-f5a2ce8584ad]
+26 Mar 2024 07:49:25,110 | INFO  | LoginHandlerImpl | 10.4.179.244 |  | User Никита_Утев [55ff2bc8-540f-4743-bf36-3a4a253b159a] was logged in via Hub auth module with [username: utevnik@gmail.com, serviceId: 861ff3c5-d1c1-4060-97b7-f5a2ce8584ad]
+26 Mar 2024 09:09:37,083 | INFO  | LoginHandlerImpl | 10.7.51.15 |  | User Дмитрий_Луговской [57178da0-5168-46d8-ac1e-55d1fe02298e] was logged in via Hub auth module with [username: lugovskoy789@mail.ru, serviceId: 861ff3c5-d1c1-4060-97b7-f5a2ce8584ad]

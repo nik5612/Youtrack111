@@ -1,0 +1,71 @@
+26/03/24 07:43:08,919 INFO  [@init servlet   ] [BaseUrlEntityListener         ] [@] New Base url [http://proxmox.ppkslavyanova.ru:8080] propagated to bundle
+ 26/03/24 07:43:09,304 INFO  [@init servlet   ] [RingConfigImpl                ] [@] Hub integration is enabled
+ 26/03/24 07:43:10,270 INFO  [@init servlet   ] [RingConfigImpl                ] [@] Establishing connection to Hub. Attempt 1 of 3. Result: Active and working
+ 26/03/24 07:43:10,306 INFO  [@init servlet   ] [RingConfigImpl                ] [@] Hub connection: Active and working
+ 26/03/24 07:43:10,331 INFO  [@init servlet   ] [HubRemoteApiFactory           ] [@] Initializing Hub Remote Api...
+ 26/03/24 07:43:10,792 INFO  [@init servlet   ] [HubRemoteApiFactory           ] [@] Syncing Hub events...
+ 26/03/24 07:43:12,176 INFO  [@init servlet   ] [HubRemoteApiFactory           ] [@] Setting up Hub event listeners...
+ 26/03/24 07:43:12,205 INFO  [@init servlet   ] [HubRemoteApiFactory           ] [@] Hub event listeners up and running
+ 26/03/24 07:43:12,229 INFO  [@init servlet   ] [HubRemoteApiFactory           ] [@] Hub Remote Api initialized
+ 26/03/24 07:43:12,263 INFO  [@init servlet   ] [IncrementalExporter           ] [@] Exporting service data...
+ 26/03/24 07:43:13,440 INFO  [@init servlet   ] [IncrementalExporter           ] [@] Exporting license, locale, logo info...
+ 26/03/24 07:43:13,663 INFO  [@init servlet   ] [SuccessExportResult           ] [@] Application metadata synchronized with Hub
+ 26/03/24 07:43:13,665 INFO  [@init servlet   ] [IncrementalExporter           ] [@] Exporting email notification config...
+ 26/03/24 07:43:13,799 INFO  [@init servlet   ] [SuccessExportResult           ] [@] Notification config synced with Hub
+ 26/03/24 07:43:13,801 INFO  [@init servlet   ] [IncrementalExporter           ] [@] Exporting trusted certificates...
+ 26/03/24 07:43:13,807 INFO  [@init servlet   ] [IncrementalExporter           ] [@] Exporting organizations...
+ 26/03/24 07:43:13,811 INFO  [@init servlet   ] [IncrementalExporter           ] [@] Exporting projects...
+ 26/03/24 07:43:13,835 INFO  [@init servlet   ] [IncrementalExporter           ] [@] Exporting permissions...
+ 26/03/24 07:43:16,228 INFO  [@init servlet   ] [IncrementalExporter           ] [@] Exporting default roles...
+ 26/03/24 07:43:16,589 INFO  [@init servlet   ] [IncrementalExporter           ] [@] Exporting roles...
+ 26/03/24 07:43:16,689 INFO  [@init servlet   ] [SuccessExportResult           ] [@] Role System Admin linked with Hub
+ 26/03/24 07:43:16,748 INFO  [@init servlet   ] [SuccessExportResult           ] [@] Role Issue Creator exported into Hub
+ 26/03/24 07:43:16,808 INFO  [@init servlet   ] [SuccessExportResult           ] [@] Role Contributor linked with Hub
+ 26/03/24 07:43:16,855 INFO  [@init servlet   ] [SuccessExportResult           ] [@] Role Issue Reader exported into Hub
+ 26/03/24 07:43:16,924 INFO  [@init servlet   ] [SuccessExportResult           ] [@] Role Project Admin linked with Hub
+ 26/03/24 07:43:16,926 INFO  [@init servlet   ] [IncrementalExporter           ] [@] Exporting user groups...
+ 26/03/24 07:43:19,535 INFO  [@init servlet   ] [SuccessExportResult           ] [@] User group All Users linked to Hub user group All Users
+ 26/03/24 07:43:19,677 WARN  [@init servlet   ] [LoggingRequestsFilter         ] [@] POST http://127.0.0.1:8080/hub/api/rest/usergroups 409 Conflict
+ 26/03/24 07:43:19,777 INFO  [@init servlet   ] [SuccessExportResult           ] [@] User group Registered Users linked to Hub user group Registered Users
+ 26/03/24 07:43:19,780 INFO  [@init servlet   ] [IncrementalExporter           ] [@] Exporting user accounts...
+ 26/03/24 07:43:19,953 WARN  [@init servlet   ] [LoggingRequestsFilter         ] [@] POST http://127.0.0.1:8080/hub/api/rest/users 409 Conflict
+ 26/03/24 07:43:20,251 INFO  [@init servlet   ] [SuccessExportResult           ] [@] User guest linked with an existing Hub user
+ 26/03/24 07:43:20,340 WARN  [@init servlet   ] [LoggingRequestsFilter         ] [@] POST http://127.0.0.1:8080/hub/api/rest/users 409 Conflict
+ 26/03/24 07:43:20,582 INFO  [@init servlet   ] [SuccessExportResult           ] [@] User root linked with an existing Hub user
+ 26/03/24 07:43:21,459 INFO  [@init servlet   ] [PermissionsCacheData          ] [@] Custom field permission cache for 2 users (2 handlers) built in 752 ms
+ 26/03/24 07:43:21,461 INFO  [@init servlet   ] [CustomFieldsPermissionsCache  ] [@] Custom field permission cache initialized
+ 26/03/24 07:43:27,883 INFO  [@init servlet   ] [BackupLocationEntityListener  ] [@] New backup location [/opt/youtrack/backups] propagated to bundle
+ 26/03/24 07:43:33,220 INFO  [@al-scheduling-3] [PermissionsCacheData          ] [@] Custom field permission cache for 2 users (2 handlers) built in 13 ms
+ 26/03/24 07:43:35,042 INFO  [@init servlet   ] [ProjectHubSyncAdapter         ] [root@] Project Демопроект (DEMO) exported as Hub resource 'Демопроект' with UUID 9bc59093-89de-49c2-ac1e-a6f96d462098
+ 26/03/24 07:43:35,781 INFO  [@init servlet   ] [SuccessExportResult           ] [root@] Демопроект (DEMO) exported into Hub
+ 26/03/24 07:43:38,998 INFO  [@al-scheduling-2] [PermissionsCacheData          ] [@] Custom field permission cache for 2 users (2 handlers) built in 156 ms
+ 26/03/24 07:43:42,353 INFO  [@al-scheduling-1] [PermissionsCacheData          ] [@] Custom field permission cache for 2 users (2 handlers) built in 19 ms
+ 26/03/24 07:44:02,725 INFO  [@t-user-action-3] [LoggingRequestsFilter         ] [root@10.0.31.243] GET http://127.0.0.1:8080/hub/api/rest/usergroups/68743a67-05c9-4eb4-9a76-f4f43c88788f?fields=id%2Caliases%2Cparent%2Fid%2Cteams%2Fid%2CprojectRoles%2Fid%2CorganizationRoles%2Fid 404 Not Found
+ 26/03/24 07:44:02,926 INFO  [@al-scheduling-4] [PermissionsCacheData          ] [@] Custom field permission cache for 2 users (2 handlers) built in 17 ms
+ 26/03/24 07:44:47,307 INFO  [@tp300548333-172] [ProjectHubSyncAdapter         ] [root@10.0.31.243] Project Вычислительный центр (001) exported as Hub resource 'Вычислительный центр' with UUID 0d4adcaa-59e3-453c-84e1-7460fc95024f
+ 26/03/24 07:44:47,552 INFO  [@tp300548333-172] [SuccessExportResult           ] [root@10.0.31.243] Вычислительный центр (001) exported into Hub
+ 26/03/24 07:44:48,162 INFO  [@al-scheduling-3] [PermissionsCacheData          ] [@] Custom field permission cache for 2 users (2 handlers) built in 24 ms
+ 26/03/24 07:44:50,777 INFO  [@al-scheduling-2] [PermissionsCacheData          ] [Hub Event Sync User@] Custom field permission cache for 2 users (2 handlers) built in 2 ms
+ 26/03/24 07:45:00,429 INFO  [@qtp300548333-42] [LoggingRequestsFilter         ] [root@10.0.31.243] GET http://127.0.0.1:8080/hub/api/rest/resources/e26c3bec-ac44-42dc-a7ea-fafa188d8853?fields=id%2Ckey%2Caliases 404 Not Found
+ 26/03/24 07:45:00,514 INFO  [@qtp300548333-38] [LoggingRequestsFilter         ] [root@10.0.31.243] GET http://127.0.0.1:8080/hub/api/rest/resources/e26c3bec-ac44-42dc-a7ea-fafa188d8853?fields=id%2Ckey%2Caliases 404 Not Found
+ 26/03/24 07:45:03,239 INFO  [@qtp300548333-38] [LoggingRequestsFilter         ] [root@10.0.31.243] GET http://127.0.0.1:8080/hub/api/rest/resources/001?fields=id%2Ckey%2Caliases 404 Not Found
+ 26/03/24 07:45:03,271 INFO  [@qtp300548333-42] [LoggingRequestsFilter         ] [root@10.0.31.243] GET http://127.0.0.1:8080/hub/api/rest/resources/e26c3bec-ac44-42dc-a7ea-fafa188d8853?fields=id%2Ckey%2Caliases 404 Not Found
+ 26/03/24 07:45:19,986 INFO  [@tp300548333-162] [LoggingRequestsFilter         ] [root@10.0.31.243] GET http://127.0.0.1:8080/hub/api/rest/resources/e26c3bec-ac44-42dc-a7ea-fafa188d8853?fields=id%2Ckey%2Caliases 404 Not Found
+ 26/03/24 07:45:19,995 INFO  [@qtp300548333-41] [LoggingRequestsFilter         ] [root@10.0.31.243] GET http://127.0.0.1:8080/hub/api/rest/resources/001?fields=id%2Ckey%2Caliases 404 Not Found
+ 26/03/24 07:46:44,802 INFO  [@al-scheduling-2] [PermissionsCacheData          ] [@] Custom field permission cache for 1 users (1 handlers) built in 10 ms
+ 26/03/24 07:47:56,803 INFO  [@al-scheduling-3] [PermissionsCacheData          ] [@] Custom field permission cache for 1 users (1 handlers) built in 12 ms
+ 26/03/24 07:49:23,865 INFO  [@al-scheduling-3] [PermissionsCacheData          ] [@] Custom field permission cache for 1 users (1 handlers) built in 9 ms
+ 26/03/24 07:50:41,788 INFO  [@al-scheduling-2] [PermissionsCacheData          ] [@] Custom field permission cache for 1 users (1 handlers) built in 9 ms
+ 26/03/24 07:51:29,882 INFO  [@al-scheduling-1] [PermissionsCacheData          ] [@] Custom field permission cache for 6 users (3 handlers) built in 6 ms
+ 26/03/24 07:51:54,010 INFO  [@al-scheduling-2] [PermissionsCacheData          ] [@] Custom field permission cache for 4 users (1 handlers) built in 26 ms
+ 26/03/24 07:53:41,977 INFO  [@al-scheduling-3] [PermissionsCacheData          ] [@] Custom field permission cache for 4 users (1 handlers) built in 12 ms
+ 26/03/24 07:54:05,931 INFO  [@al-scheduling-4] [PermissionsCacheData          ] [@] Custom field permission cache for 3 users (1 handlers) built in 13 ms
+ 26/03/24 07:54:23,821 INFO  [@al-scheduling-3] [PermissionsCacheData          ] [@] Custom field permission cache for 1 users (1 handlers) built in 11 ms
+ 26/03/24 07:55:06,791 INFO  [@qtp300548333-48] [ProjectHubSyncAdapter         ] [root@10.0.31.243] Project Тикет-система (002) exported as Hub resource 'Тикет-система' with UUID f6a061c8-ff2f-4936-a1b8-43ad3cff2dff
+ 26/03/24 07:55:06,992 INFO  [@qtp300548333-48] [SuccessExportResult           ] [root@10.0.31.243] Тикет-система (002) exported into Hub
+ 26/03/24 07:55:08,965 INFO  [@al-scheduling-3] [PermissionsCacheData          ] [@] Custom field permission cache for 6 users (4 handlers) built in 30 ms
+ 26/03/24 08:27:49,912 INFO  [@qtp300548333-48] [LoggingRequestsFilter         ] [root@10.0.31.243] GET http://127.0.0.1:8080/hub/api/rest/resources/e26c3bec-ac44-42dc-a7ea-fafa188d8853?fields=id%2Ckey%2Caliases 404 Not Found
+ 26/03/24 08:27:49,958 INFO  [@qtp300548333-40] [LoggingRequestsFilter         ] [root@10.0.31.243] GET http://127.0.0.1:8080/hub/api/rest/resources/e26c3bec-ac44-42dc-a7ea-fafa188d8853?fields=id%2Ckey%2Caliases 404 Not Found
+ 26/03/24 09:40:29,081 INFO  [@tp300548333-587] [LoggingRequestsFilter         ] [root@10.0.31.243] GET http://127.0.0.1:8080/hub/api/rest/resources/e26c3bec-ac44-42dc-a7ea-fafa188d8853?fields=id%2Ckey%2Caliases 404 Not Found
+ 26/03/24 09:40:29,123 INFO  [@tp300548333-499] [LoggingRequestsFilter         ] [root@10.0.31.243] GET http://127.0.0.1:8080/hub/api/rest/resources/e26c3bec-ac44-42dc-a7ea-fafa188d8853?fields=id%2Ckey%2Caliases 404 Not Found
+ 
